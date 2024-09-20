@@ -1,0 +1,320 @@
+/*
+  Localizable.strings
+  Modulus
+
+  Created by Rahul on 30/09/20.
+  Copyright © 2020 Bhavesh Sarwar. All rights reserved.
+*/
+
+"appTitle" = "PressX";
+"appName" = "PressX";
+
+"Please enter" = "请输入";
+"LOGIN" = "登入";
+"Sign up" = "開戶";
+"NOT NOW" = "现在不要";
+"Forgot password?" = "忘記密碼?";
+"Password" = "密碼";
+"Email" = "電郵";
+"Please enter valid email" = "請輸入有效的電郵地址";
+"Please enter password" = "请输入密码";
+"Do you want to Login to use this feature ?"="登入使用些功能？";
+//MARK: - Forgot Password Screen
+"Forgot Password" = "忘記密碼?";
+"Please enter your email" = "請輸入您的電郵地址";
+"SEND VERIFICATION EMAIL" = "發送驗證電子郵件";
+"please check your inbox for password reset link" = "请检查您的收件箱中的密码重置链接";
+
+
+//MARK: - Sign up Screen
+"Sign Up" = "開戶";
+"SIGN UP" = "開戶";
+"Name" = "名稱";
+"Confirm Password" = "确认密码";
+"Country" = "國家";
+"Mobile" = "手機號碼";
+"Middle Name" = "中間名字";
+"Last Name" ="姓";
+"Please complete the sign-up process by clicking on the link in your email inbox"   = "我們已發送認證郵件到您的電郵地址，請點擊郵件中的認證鏈結完成開戶。";
+"Password and confirm password do not match" = "密碼和確認密碼應該相同";
+"Please enter valid password"  ="请输入有效密码";
+"Please enter confirm password"  = "请输入确认密码";
+"Please enter country" = "请输入国家";
+"Please enter mobile number" = "请输入手机号码";
+"Please enter valid mobile number" = "请输入有效的手机号码";
+"Please enter first name" = "请输入名字";
+"Please enter last name" = "请输入姓氏";
+"Search Country" = "搜索國家";
+"Please select country" = "请选择国家";
+"Have an account already?  Log in" = "已经有帐号了吗？登录";
+"Password must be no less than 7 characters including  uppercase and lowercase letters" = "密碼不得少於7個字符";
+"Unavailable" = "不可用";
+"Referral Code" = "推荐代码";
+"Google Authenticator" = "谷歌身分驗證器";
+"Pairing Code : " =  "配对码 : ";
+"Biometric Lock" = "生物识别锁";
+"Enable Biometric Lock" = "启用生物特征锁定";
+"When enabled, you'll need to use" = "启用后，您需要使用";
+"Face ID" = "人脸编号";
+"Touch ID" = "接触ID";
+"to unlock" = "开锁";
+"Pair" = "市場";
+
+//MARK: - OTP Verification Screen
+"SUBMIT" = "提交";
+"Get a verification code from 'Google Authenticator' app" = "從 Google Authenticator 獲取驗證碼";
+"Please enter the One Time Password (OTP) which was sent to %@" = "請輸入發送到%@的驗證碼";
+"Security verification" = "安全認證";
+"Didn't Receive OTP? Send again" = "没有收到OTP吗？重新发送";
+"OTP has been successfully sent" = "OTP已成功发送";
+"Please Enter OTP" = "请输入OTP";
+"Didn't Receive OTP ?" = "發送驗證碼?";
+" Send again" = " 重新發送";
+//MARK: - Tab Bar
+"Wallet" = "錢包";
+"Account" = "帳戶";
+
+
+//MARK: - MarketList Screen
+"Market" = "市場";
+"Market Price" = "市场价";
+"Vol" = "成交量";
+"End Reached" = "清單末尾";
+"Last Price" = "最新價格";
+"Change" = "漲跌";
+"No data available" = "沒有數據";
+
+//MARK: - Market OverView Screen
+"High" = "最高:";
+"Low" = "最低:";
+"MARKET" = "市場" ;
+"DEPTH" = "訂單深度";
+"Amount" = "數量" ;
+"Volume" = "成交量";
+"ORDER BOOK" = "市場委託訂單" ;
+"TRADE HISTORY" = "交易歷史";
+"AVAILABLE" = "可用資產";
+"IN ORDER" = "下單凍結";
+"CONVERT BTC" = "BTC估值" ;
+"BUY" = "買入";
+"SELL" = "賣出";
+"No Depth chart data available" = "没有可用的深度图数据" ;
+
+
+
+//MARK: - Order Screen
+"Orders" = "訂單";
+"Are you sure you want to cancel this order?" = "您確定要取消此訂單嗎？";
+"Order has been cancelled" = "订单已取消";
+"Trading Pair" = "市場";
+"Price" = "價格";
+"Amount Filled" = "成交數量";
+"Total Amount" = "數量";
+"CANCEL" = "取消";
+"Pairs" = "对";
+
+//MARK: - Buy/Sell Screen
+"Order placed successfully."="下單成功";
+"Good till cancelled" = "取消前有效";
+"Immediate or cancel" = "立刻執行或取消" ;
+"Fill or Kill" = "全額或取消" ;
+"Day only" = "即日盤";
+"Ask Price" = "賣出價";
+"Bid Price" = "買入價";
+"Sell" = "賣出";
+"Buy" = "買入l";
+"All" = "全部";
+"Highest bid" = "最高買入價:";
+"Lowest ask" = "最低賣出價:";
+"Are you sure you want to place this order?"= "您確定要下訂單嗎?";
+"Please enter volume value" = "请输入音量值";
+"Please enter limit value" ="请输入极限值";
+"Please enter stop value" = "请输入止损值";
+"Please enter volume value" = "请输入音量值";
+"Please enter price value" = "请输入价格值";
+"Please enter valid volume" = "请输入有效量";
+"Time in Force" = "有效时间";
+"Total" = "總額";
+"Stop" = "止盈止損";
+"Stop Limit" = "限價止損";
+"OK" = "好";
+"All Sell Orders"= "全部賣出訂單";
+"My Sell Orders" = "我的賣出訂單";
+"All Buy Orders" = "全部買入訂單";
+"My Buy Orders" = "我的買入訂單";
+"Buy Orders" = "買入委託" ;
+"Sell Orders" = "賣出委託";
+"Limit" = "限價";
+"CONFIRM" = "確認";
+"Stop Market" = "停止市場";
+"Trailing Stop Market" = "追踪止損市場";
+"Absolute Trailing Value" = "絕對尾隨值";
+"Trailing Value Percentage" = "尾隨價值百分比";
+
+"Trail" = "落后";
+"Trail Value" = "追踪值";
+"Trail Market" = "步道市场";
+"Balance" = "餘額";
+
+//MARK: - Account Screen
+"Security Verification" = "安全認證";
+"Change Password" = "更改密碼";
+"Fiat Currency" = "法定貨幣";
+"Order History" = "訂單歷史";
+"Log out" = "登出";
+"Are you sure you want to logout of this account?" = "您确定要注销该帐户吗";
+
+//MARK: - Fiat Currency
+"Search Currency" = "搜索貨幣";
+
+//MARK: - Security Verification
+"KYC Verification" = "帳戶驗證";
+"Approved" = "已批准";
+"YES" = "是";
+"NO" = "否";
+
+//MARK: - Change Password
+"New Password must be no less than 7 characters" = "密碼不得少於7個字符，包括大寫和小寫字母";
+"Please Enter Values for all fields" = "请为所有字段输入值";
+"* For security purposes no withdrawals are permitted for 24 hours after modification of security methods." = "* 為安全起見，修改安全設定後的24小時內不能提取資產。";
+"Old Password" = "舊有密碼";
+"New Password" = "新密碼";
+"Confirm Password" = "確認密碼";
+
+"Ooops…something wrong, try one more time" = "系統出錯.";
+"Are you sure you want to place this order?" ="您確定要下訂單嗎";
+"Password and confirm  password should be same"="密碼和確認密碼應該相同";
+"Password changed successfully"="密碼更改成功";
+"Password must be no less than 7 characters including uppercase and lowercase letters"="密碼不得少於7個字符，包括大寫和小寫字母";
+
+//MARK: - Google Auth
+
+"Paring code copied" = "地址複製成功";
+"Enable 2FA" = "啟用雙重認證機制r";
+"Disable 2FA" = "停用雙重認證機制";
+"Please enter your 6-digit authenticator code" = "請輸入您的6位數字驗證碼";
+"Two-factor authentication (2fa) greatly increases security by requiring both your password and another form of authentication. Cryptosa implements 2fa utilizing Google Authenticator. To enable this feature simply download Google Authenticator on your mobile device and scan the QRCode." = "雙重身份驗證（2FA）通過同時要求您的密碼和另一種身份驗證形式，大大提高了安全性。 Moodulus 通過谷歌身分驗證器啟用2FA。要啟用2FA功能，請下載谷歌身分驗證器到你的手機及掃瞄二維碼。.";
+"COPY" = "複製";
+"Input your 6-digit authenticator code" ="請輸入您的6位數字驗證碼";
+"Paring code copied" = "地址複製成功";
+"Address copied" = "地址已复制";
+
+
+//MARK: - Wallet History
+
+"Deposit" = "充值";
+"History" = "歷史";
+"Withdrawal History" = "提現歷史";
+"Hide assets with small amounts" = "隱藏小額資產" ;
+"Show assets with small amounts" = "顯示小額資產" ;
+"Please enter wallet address" = "選擇錢包地址";
+"Min withdrawal amount" = "最低提現數量:";
+"Max withdrawal amount" = "最大提款金額:";
+"Please enter valid address" = "请输入有效地址";
+"Are you sure you want to place this withdrawal request?" = "您确定要发出此提款请求吗?";
+
+"Please complete the  withdrawal process by clicking on the link in your email inbox" =
+"请通过单击电子邮件收件箱中的链接来完成提款过程";
+
+"Please enter amount" = "请输入金额";
+
+
+//MARK: - Wallet Screen
+"Holding" = "持有";
+"Withdrawal" = "提現";
+"Open Orders" = "當前委託";
+"ESTIMATED VALUE" = "估計值";
+"IN ORDERS" = "下單凍結";
+"- The transfer of digital assets between the accounts of this platform is not supported, please ensure that your transfer address is not our account address.\n- We will process your withdrawal in 30 minutes, it depends on the blockchain when the assets would finally transferred to your wallet.\n- To enhance the security of your assets, if your withdrawal amount is larger than 50.0 BTC, we have to manually proccess your request, please double check your withdraw address." = "- 本平台並不支持帳戶之間的數字資產轉移。請確保轉賬地址並不屬於本平台上的另一個帳戶。\n\n- 我們會在180分鐘內處理您的提取指示。 完成轉移所需的時間取決於區塊鍊網絡, 您可在etherscan.io 網站上查看轉移的狀態。.\n\n- 為了提高資產的安全性，如果您的 提取數量大於50.0 BTC";
+
+
+
+//MARK: - Withdraw Screen
+
+"Fee" = "費用";
+"Select Wallet Address" = "选择钱包地址";
+"ALL" = "全部";
+"Google Autheticator Code"="Google验证码";
+"Address Tag"="地址标签";
+"Address"="地址";
+"Please complete the  withdrawal process by clicking on the link in your email inbox"="请通过单击电子邮件收件箱中的链接来完成提款过程";
+"AccountNumber must be exactly 26 characters" = "AccountNumber必须为26个字符";
+"Account number copied" = "帐号已复制";
+
+//MARK: - Deposit Screen
+
+"- Do not use this address to deposit any other asset than the selected one. Any loss due to maloperation can not be retrieved.\n - This is your one and only address for depositing purpose. You are allowed to proceed multiple deposits simultaneously.\n - Depositing wil be done automatically. Selecting asset to transfer requires confirmation from the whole Bitcoin network. The asset you selected will be deposited into your account when reaches 6 confirmations." = "-請勿使用此地址存入非指定的數字資產， 因誤操作造成的任何損失無法檢索。\n\n- 這是您唯一的存入數字資產地址。 您可以同時進行多次存入。\n\n- 您存入的數字資產在區塊鏈網絡上達到需要的確認數量後便可使用。";
+
+
+
+"Deposit History" = "充值歷史";
+"Transaction Fee" = "手续费";
+"Are you sure you want to change language to" = "您确定要将语言更改为";
+"Bank Details"="銀行明細";
+"Bank Name"="銀行名稱 :";
+"Beneficiary Name"="收款人姓名";
+"Bank Routing Code"="銀行轉帳代碼";
+"Account Number"="帳號";
+"Swift Code"="SWIFT代碼";
+"Location"="位置";
+"Submit Deposit" = "提交存款";
+"Request Amount"="要求金額";
+"Comments"="評論";
+"ALREADY HAVE"="已经有";
+"Are you sure you want to cancel Deposit request?"="您確定要取消此訂單嗎？";
+"Request amount cannot be empty"="要求金额不能为空";
+"Transaction ID cannot be empty"="交易编号不能为空";
+"Select a Payment Method"="选择付款方式";
+"Search Bank Name"="搜索银行名称";
+"Bank Transfer"="银行转帐";
+"Online Payment"="網上支付";
+"You will be redirected to an external website to complete your deposit."="您将被重定向到外部网站以完成您的存款.";
+"Trasnsaction Fee"="手續費";
+"Charge Amount"="收費金額";
+"Destination Tag:"="目的地標籤:";
+
+//MARK: - Error Popup
+"The internet appears to be offline" = "互联网似乎已离线";
+"Search Coin" = "搜索數字資產";
+"Your choice" = "您的選擇";
+"Favorites" = "我的最愛";
+"server error" = "服務器錯誤";
+
+//MARK: - Settings
+"Settings" = "設定";
+"URL Changed successfully" = "服務器網址已成功更改";
+"Invalid URL" = "網址無效";
+"SAVE" = "儲存";
+"REFRESH THEME" = "刷新主題";
+"Please Confirm" ="请确认";
+"Some thing went wrong" = "系統出錯";
+"Language" = "语言";
+// Qr code
+"Scan QR Code" = "扫描二维码";
+"QR Code Payment" = "QR码支付";
+////MARK: -  Portuguese Strings need Englisg version for that
+"Scan or QR Code" = "扫描或二维码";
+"Transaction data" = "交易数据";
+"Transaction Code" = "交易代码";
+"Select currency" = "选择货币";
+"Selected Currency" = "所选货币";
+"Currency value" = "货币价值";
+"Transaction successful." = "交易成功";
+"Please select currency" = "请选择币种";
+"Please enter Google Authenticator Code" = "请输入Google Authenticator代码";
+"We have processed your payment request. Please complete the final step in payment by clicking on the link you received in email requesting withdrawal of funds!" = "我们已经处理了您的付款请求。请点击您在电子邮件中要求提款的链接，完成付款的最后一步!";
+
+//MARK: -Session
+"Do you want to continue this session?" = "您要继续此会议吗";
+//KYC
+"Image Preview" = "图像预览";
+"Choose" = "选择";
+"Image" = "图片";
+//MDExchangeTokenVC
+"Pay_trading_fees_with_currency" = "支付交易费用 %@";
+"when_you_enroll_pay_with" = "当您注册使用 %@ 计划付款时，您无需以基础货币或报价货币支付交易费用，而是从您的 %@ 余额中支付等值金额。";
+
+"your_trading_disc_will" = "您的交易费用折扣将取决于您账户中当前持有的 %@ 金额";
+"trade_history" = "Trade History";
+
+"Favorites" = "收藏夹";

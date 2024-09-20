@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mark Simonson - Proxima Nova Alt Regular.otf">
+            <string>ProximaNovaA-Regular</string>
+        </array>
+        <array key="Mark Simonson - Proxima Nova Alt Semibold.otf">
+            <string>ProximaNovaA-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDPopupView" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aeD-TV-kDg">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PbP-dh-Xa1">
+                            <rect key="frame" x="83" y="310.5" width="248" height="275"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SERVER ERROR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1y-JK-A6z">
+                                    <rect key="frame" x="52.5" y="118.5" width="143.5" height="24.5"/>
+                                    <fontDescription key="fontDescription" name="ProximaNovaA-Semibold" family="Proxima Nova Alt" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad" translatesAutoresizingMaskIntoConstraints="NO" id="SsI-ut-s4r">
+                                    <rect key="frame" x="96.5" y="30" width="55" height="54.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="SsI-ut-s4r" secondAttribute="height" multiplier="1:1" id="vVj-UV-iK1"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiV-XE-AoI">
+                                    <rect key="frame" x="24.5" y="150" width="199" height="28"/>
+                                    <string key="text">Ooops…something wrong,
+try one more time</string>
+                                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkS-B9-7pN">
+                                    <rect key="frame" x="63" y="201" width="122" height="39.5"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="pkS-B9-7pN" secondAttribute="height" multiplier="111:36" id="wn7-Y5-3yq"/>
+                                    </constraints>
+                                    <state key="normal" title="OK">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="okButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Jwn-aK-hgz"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="PiV-XE-AoI" firstAttribute="width" secondItem="PbP-dh-Xa1" secondAttribute="width" multiplier="0.8" id="0sf-aR-NuN"/>
+                                <constraint firstAttribute="width" secondItem="PbP-dh-Xa1" secondAttribute="height" multiplier="1:1.109" id="DoE-Ko-xa7"/>
+                                <constraint firstItem="SsI-ut-s4r" firstAttribute="centerX" secondItem="PbP-dh-Xa1" secondAttribute="centerX" id="L9T-3A-0Po"/>
+                                <constraint firstItem="SsI-ut-s4r" firstAttribute="width" secondItem="PbP-dh-Xa1" secondAttribute="width" multiplier="0.22" id="aOR-t3-54f"/>
+                                <constraint firstItem="b1y-JK-A6z" firstAttribute="centerY" secondItem="PbP-dh-Xa1" secondAttribute="centerY" multiplier="0.95" id="cYd-hd-AUp"/>
+                                <constraint firstItem="pkS-B9-7pN" firstAttribute="width" secondItem="PbP-dh-Xa1" secondAttribute="width" multiplier="0.49" id="ddN-wr-UgX"/>
+                                <constraint firstItem="b1y-JK-A6z" firstAttribute="top" secondItem="SsI-ut-s4r" secondAttribute="bottom" multiplier="1.4" id="ikC-88-lMZ"/>
+                                <constraint firstItem="pkS-B9-7pN" firstAttribute="top" secondItem="PiV-XE-AoI" secondAttribute="bottom" multiplier="1.13" id="na4-Hi-Qla"/>
+                                <constraint firstItem="PiV-XE-AoI" firstAttribute="centerX" secondItem="b1y-JK-A6z" secondAttribute="centerX" id="oBd-5J-c7m"/>
+                                <constraint firstItem="PiV-XE-AoI" firstAttribute="top" secondItem="b1y-JK-A6z" secondAttribute="bottom" multiplier="1.05" id="u6S-Hc-TEF"/>
+                                <constraint firstItem="b1y-JK-A6z" firstAttribute="centerX" secondItem="PbP-dh-Xa1" secondAttribute="centerX" id="wdp-7Q-DQY"/>
+                                <constraint firstItem="pkS-B9-7pN" firstAttribute="centerX" secondItem="PbP-dh-Xa1" secondAttribute="centerX" id="xZ1-VK-3g9"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.070588235294117646" green="0.058823529411764705" blue="0.13333333333333333" alpha="0.703675176056338" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="PbP-dh-Xa1" firstAttribute="width" secondItem="aeD-TV-kDg" secondAttribute="width" multiplier="0.3" id="9GO-mh-Zs8"/>
+                        <constraint firstItem="PbP-dh-Xa1" firstAttribute="centerX" secondItem="aeD-TV-kDg" secondAttribute="centerX" id="N4O-65-Qdv"/>
+                        <constraint firstItem="PbP-dh-Xa1" firstAttribute="width" secondItem="aeD-TV-kDg" secondAttribute="width" multiplier="0.6" id="YDq-Xg-Q6b"/>
+                        <constraint firstItem="PbP-dh-Xa1" firstAttribute="centerY" secondItem="aeD-TV-kDg" secondAttribute="centerY" id="ro3-1S-y88"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="9GO-mh-Zs8"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact">
+                        <mask key="constraints">
+                            <include reference="9GO-mh-Zs8"/>
+                            <exclude reference="YDq-Xg-Q6b"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="XPc-51-BvY" appends="YES" id="wZw-HL-rzu"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aeD-TV-kDg" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="Aau-0s-dIQ"/>
+                <constraint firstItem="aeD-TV-kDg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IVr-f7-SPw"/>
+                <constraint firstItem="aeD-TV-kDg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Oxv-hH-VoF"/>
+                <constraint firstItem="aeD-TV-kDg" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="m92-54-xyO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backgroundView" destination="aeD-TV-kDg" id="938-bN-EYg"/>
+                <outlet property="errorMessage" destination="PiV-XE-AoI" id="778-Kt-5Yb"/>
+                <outlet property="errorTitle" destination="b1y-JK-A6z" id="GU1-eX-Kex"/>
+                <outlet property="imageView" destination="SsI-ut-s4r" id="hVc-ZN-XQz"/>
+                <outlet property="okButton" destination="pkS-B9-7pN" id="X2K-bI-ZBW"/>
+                <outlet property="popupView" destination="PbP-dh-Xa1" id="McD-9k-MvG"/>
+            </connections>
+            <point key="canvasLocation" x="152.80000000000001" y="68.815592203898049"/>
+        </view>
+        <tapGestureRecognizer id="XPc-51-BvY">
+            <connections>
+                <action selector="backgrooundTapped:" destination="iN0-l3-epB" id="NSF-a8-Mg4"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="sad" width="50" height="50"/>
+    </resources>
+</document>

@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Highstock Example</title>
+
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="https://code.highcharts.com/css/stocktools/gui.css">
+    <link rel="stylesheet" type="text/css" href="https://code.highcharts.com/css/annotations/popup.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="code/highstock.js"></script>
+
+    <script src="code/indicators/indicators-all.js"></script>
+
+    <script src="code/modules/drag-panes.js"></script>
+    <script src="code/modules/annotations-advanced.js"></script>
+    <script src="code/modules/price-indicator.js"></script>
+    <script src="code/modules/full-screen.js"></script>
+
+    <script src="code/modules/stock-tools.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.2.min.js"></script>
+
+    <div id="container" class="chart" style="height: 800px"></div>
+
+    <script type="text/javascript">
+        
+        var url = new URL(window.location.href);
+        var baseCoin = url.searchParams.get("base");
+        var toCoin = url.searchParams.get("to");
+        var domain = url.searchParams.get("domain");
+        var interval = url.searchParams.get("interval");
+        var timestamp=url.searchParams.get("timestamp");
+<!--        var preset=url.searchParams.get("preset");-->
+
+        var connection = $.hubConnection(domain);
+        var dataTickerHubProxy = connection.createHubProxy('dataTickerHub');
+
+        dataTickerHubProxy.on('chartTicker', function (data) {
+            console.log('\n--- gets chart data ----');
+            console.table(data);
+        });
+        connection.start().done(function () {
+            console.log('\n-------------------------   Start the connection to the dataTickerHub    ---------------------------');
+            dataTickerHubProxy.invoke('joinGroup', 'ETH', 'BTC');
+            dataTickerHubProxy.invoke('subscribeToChartTicker', 'ETH', 'BTC', 1440);
+            //    dataTickerHubProxy.invoke('subscribeTo_PendingOrderData', 'USER_UNIQUE_ACCESS_TOKEN', 'TRADE_CURRENCY', 'MARKET_CURRENCY');
+        });
+
+<!--        function loadVariables(baseChart, toCurrencyChart, domainChart, intervalChart, timestampChart) {-->
+    console.log(domain+'/market/get-chart-data?baseCurrency=' + baseCoin + '&quoteCurrency=' + toCoin + '&timestamp='+timestamp+'&interval='+interval+'&limit=1000');
+            $.getJSON(domain+'/market/get-chart-data?baseCurrency=' + baseCoin + '&quoteCurrency=' + toCoin + '&timestamp='+timestamp+'&interval='+interval+'&limit=1000', function (data) {
+                    
+                // split the data set into ohlc and volume
+                var ohlc = [],
+                    volume = [],
+                    dataLength = data.data.length,
+                    i = 0;
+                console.log("=====api response======");
+                console.log(data);
+                for (i; i < dataLength; i += 1) {
+                    ohlc.push([
+                        data.data[i]["time"], // the date
+                        data.data[i]["open"], // open
+                        data.data[i]["high"], // high
+                        data.data[i]["low"], // low
+                        data.data[i]["close"] // close
+                    ]);
+
+                    volume.push([
+                        data.data[i]["time"], // the date
+                        data.data[i]["volume"] // the volume
+                    ]);
+                }
+                ohlc.reverse();
+                volume.reverse();
+                console.log("======Data parsed=======");
+                console.log(ohlc);
+                console.log(volume);
+                Highcharts.stockChart('container', {
+                    yAxis: [{
+                        labels: {
+                            align: 'left'
+                        },
+                        height: '80%',
+                        resize: {
+                            enabled: true
+                        }
+                    }, {
+                        labels: {
+                            align: 'left'
+                        },
+                        top: '80%',
+                        height: '20%',
+                        offset: 0
+                    }],
+                    tooltip: {
+                        shape: 'square',
+                        headerShape: 'callout',
+                        borderWidth: 0,
+                        shadow: false,
+                        positioner: function (width, height, point) {
+                            var chart = this.chart,
+                                position;
+
+                            if (point.isHeader) {
+                                position = {
+                                    x: Math.max(
+                                        // Left side limit
+                                        chart.plotLeft,
+                                        Math.min(
+                                            point.plotX + chart.plotLeft - width / 2,
+                                            // Right side limit
+                                            chart.chartWidth - width - chart.marginRight
+                                        )
+                                    ),
+                                    y: point.plotY
+                                };
+                            } else {
+                                position = {
+                                    x: point.series.chart.plotLeft,
+                                    y: point.series.yAxis.top - chart.plotTop
+                                };
+                            }
+
+                            return position;
+                        }
+                    },
+                    series: [{
+                        type: 'ohlc',
+                        id: 'aapl-ohlc',
+                        name: baseCoin+' Stock Price',
+                        data: ohlc
+                    }, {
+                        type: 'column',
+                        id: 'aapl-volume',
+                        name: toCoin+' Volume',
+                        data: volume,
+                        yAxis: 1
+                    }]
+                });
+            });
+<!--        }-->
+
+    </script>
+</body>
+
+</html>

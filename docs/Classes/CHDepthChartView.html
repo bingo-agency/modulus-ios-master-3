@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CHDepthChartView Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CHDepthChartView" class="dashAnchor"></a>
+    <a title="CHDepthChartView Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (13% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CHDepthChartView Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate/AppUtility.html">– AppUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArcView.html">ArcView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseWindow.html">BaseWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Bicycle.html">Bicycle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Bicycle/Style.html">– Style</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHDepthChartView.html">CHDepthChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHKLineChartStyle.html">CHKLineChartStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHShapeLayer.html">CHShapeLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHTextLayer.html">CHTextLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CircularProgressView.html">CircularProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CircularProgressView/Animation.html">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ClosureWrapper.html">ClosureWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ColorUtil.html">ColorUtil</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CountryCodeCell.html">CountryCodeCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Modulus@objc(cs)Extensions">Extensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Flag.html">Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FlagKit.html">FlagKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientArcView.html">GradientArcView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientArcWithClearColorView.html">GradientArcWithClearColorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientCircularProgress.html">GradientCircularProgress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/INDepthChartView.html">INDepthChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAccountCell.html">MDAccountCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAccountVC.html">MDAccountVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAccountVC/segueIdentifiers.html">– segueIdentifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAlertMessageView.html">MDAlertMessageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAlertPopupView.html">MDAlertPopupView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance.html">MDAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/Colors.html">– Colors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/Fonts.html">– Fonts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/Proxima_Nova.html">– Proxima_Nova</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/tags.html">– tags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDButtonPrice.html">MDButtonPrice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDButtonWithImage.html">MDButtonWithImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDButtonWithImageOnRight.html">MDButtonWithImageOnRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDBuySellOrderCell.html">MDBuySellOrderCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDBuySellVC.html">MDBuySellVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDChangePasswordVC.html">MDChangePasswordVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDChangeScreenCell.html">MDChangeScreenCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDCurrencyVC.html">MDCurrencyVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDarkTheme.html">MDDarkTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDepositVC.html">MDDepositVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDropDownCell.html">MDDropDownCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDropDownVC.html">MDDropDownVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDummyTheme.html">MDDummyTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDForgotPasswordVC.html">MDForgotPasswordVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDGoogleAuthVC.html">MDGoogleAuthVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDHelper.html">MDHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDHistoryCell.html">MDHistoryCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDLoginVC.html">MDLoginVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDMarketListCell.html">MDMarketListCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDMarketOverViewVC.html">MDMarketOverViewVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDNetworkManager.html">MDNetworkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDOTPVerification.html">MDOTPVerification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDOrderTradeCell.html">MDOrderTradeCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDOrdersListCell.html">MDOrdersListCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDPlusMinusView.html">MDPlusMinusView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDPopupView.html">MDPopupView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSecurityVerifcationVC.html">MDSecurityVerifcationVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSettingURLVC.html">MDSettingURLVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSideCornerLeftButton.html">MDSideCornerLeftButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSideCornerRightButton.html">MDSideCornerRightButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSideCornerView.html">MDSideCornerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSignUpVC.html">MDSignUpVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSignalRManager.html">MDSignalRManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSnackBarHelper.html">MDSnackBarHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDTextField.html">MDTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWalletHelper.html">MDWalletHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWalletHistoryVC.html">MDWalletHistoryVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWalletVC.html">MDWalletVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWebSocketManager.html">MDWebSocketManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWithdrawVC.html">MDWithdrawVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MarketDepthData.html">MarketDepthData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MarketListHeaders.html">MarketListHeaders</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MarketListVC.html">MarketListVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderListHeaders.html">OrderListHeaders</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressAtRatioView.html">ProgressAtRatioView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressView.html">ProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressViewController.html">ProgressViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SecurityVerficationCells.html">SecurityVerficationCells</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TriangleView.html">TriangleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewController.html">ViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/currencyCell.html">currencyCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/currencyDropdownCell.html">currencyDropdownCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/currencyPairDropdownCell.html">currencyPairDropdownCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Modulus@objc(cs)customPlaceHolderTextField">customPlaceHolderTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:7Modulus4demoC">demo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/languageCell.html">languageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/sortIndicatorStackView.html">sortIndicatorStackView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/walletBalanceCurrencyCell.html">walletBalanceCurrencyCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BackgroundStyles.html">BackgroundStyles</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHAxisReferenceStyle.html">CHAxisReferenceStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHKDepthChartItemType.html">CHKDepthChartItemType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHKDepthChartOnDirection.html">CHKDepthChartOnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHUIPanDirectionType.html">CHUIPanDirectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHUltimateValueStyle.html">CHUltimateValueStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHYAxisShowPosition.html">CHYAxisShowPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CryptoAlgorithm.html">CryptoAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExchangeType.html">ExchangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FlagStyle.html">FlagStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OTPScreenType.html">OTPScreenType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WalletType.html">WalletType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/dropDownType.html">dropDownType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/sortOptions.html">sortOptions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDictionary.html">NSDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton/AssociatedKeys.html">– AssociatedKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField/PaddingMode.html">– PaddingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CHKDepthChartDelegate.html">CHKDepthChartDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StyleProperty.html">StyleProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThemeProtocol.html">ThemeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/alertPopupDelegate.html">alertPopupDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/alertPopupMessageDelegate.html">alertPopupMessageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/customDropDownDelegates.html">customDropDownDelegates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/signalRDataDelegates.html">signalRDataDelegates</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Background.html">Background</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlueDarkStyle.html">BlueDarkStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlueIndicatorStyle.html">BlueIndicatorStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CHXAxis.html">CHXAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CHYAxis.html">CHYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConstantSizes.html">ConstantSizes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GreenLightStyle.html">GreenLightStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MyStyle.html">MyStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OrangeClearStyle.html">OrangeClearStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Property.html">Property</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScreenTypeTextFieldTags.html">ScreenTypeTextFieldTags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Style.html">Style</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7Modulus15CompletionBlocka">CompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7Modulus21UIButtonTargetClosurea">UIButtonTargetClosure</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CHDepthChartView</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">CHDepthChartView</span> <span class="p">:</span> <span class="kt">UIView</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC16kYAxisLabelWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/kYAxisLabelWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC16kYAxisLabelWidth12CoreGraphics7CGFloatVvp">kYAxisLabelWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>MARK: - 常量</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">kYAxisLabelWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC12kXAxisHegiht12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/kXAxisHegiht" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC12kXAxisHegiht12CoreGraphics7CGFloatVvp">kXAxisHegiht</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">kXAxisHegiht</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC07mySuperD0AA07INDepthcD0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/mySuperView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC07mySuperD0AA07INDepthcD0CSgvp">mySuperView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">mySuperView</span><span class="p">:</span> <span class="kt"><a href="../Classes/INDepthChartView.html">INDepthChartView</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC8bidColorSo7UIColorC6stroke_AF4fill12CoreGraphics7CGFloatV9lineWidthtvp"></a>
+                    <a name="//apple_ref/swift/Property/bidColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC8bidColorSo7UIColorC6stroke_AF4fill12CoreGraphics7CGFloatV9lineWidthtvp">bidColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>MARK: - 成员变量</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">bidColor</span><span class="p">:</span> <span class="p">(</span><span class="nv">stroke</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">fill</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">lineWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC8askColorSo7UIColorC6stroke_AF4fill12CoreGraphics7CGFloatV9lineWidthtvp"></a>
+                    <a name="//apple_ref/swift/Property/askColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC8askColorSo7UIColorC6stroke_AF4fill12CoreGraphics7CGFloatV9lineWidthtvp">askColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">askColor</span><span class="p">:</span> <span class="p">(</span><span class="nv">stroke</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">fill</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">lineWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(py)labelFont"></a>
+                    <a name="//apple_ref/swift/Property/labelFont" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(py)labelFont">labelFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="kd">open</span> <span class="k">var</span> <span class="nv">labelFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(py)lineColor"></a>
+                    <a name="//apple_ref/swift/Property/lineColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(py)lineColor">lineColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="kd">open</span> <span class="k">var</span> <span class="nv">lineColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(py)textColor"></a>
+                    <a name="//apple_ref/swift/Property/textColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(py)textColor">textColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="kd">open</span> <span class="k">var</span> <span class="nv">textColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(py)xAxisPerInterval"></a>
+                    <a name="//apple_ref/swift/Property/xAxisPerInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(py)xAxisPerInterval">xAxisPerInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="kd">open</span> <span class="k">var</span> <span class="nv">xAxisPerInterval</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC5yAxisAA7CHYAxisVvp"></a>
+                    <a name="//apple_ref/swift/Property/yAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC5yAxisAA7CHYAxisVvp">yAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">yAxis</span><span class="p">:</span> <span class="kt"><a href="../Structs/CHYAxis.html">CHYAxis</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC5xAxisAA7CHXAxisVvp"></a>
+                    <a name="//apple_ref/swift/Property/xAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC5xAxisAA7CHXAxisVvp">xAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">xAxis</span><span class="p">:</span> <span class="kt"><a href="../Structs/CHXAxis.html">CHXAxis</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC15yAxisLabelWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/yAxisLabelWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC15yAxisLabelWidth12CoreGraphics7CGFloatVvp">yAxisLabelWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">yAxisLabelWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC7decimal33_DD96ADACC21DB5390E2752A3C6CE39F3LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/decimal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC7decimal33_DD96ADACC21DB5390E2752A3C6CE39F3LLSivp">decimal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>价格小数位</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">decimal</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC10numDecimal33_DD96ADACC21DB5390E2752A3C6CE39F3LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/numDecimal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC10numDecimal33_DD96ADACC21DB5390E2752A3C6CE39F3LLSivp">numDecimal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>量小数位</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">numDecimal</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC7paddingSo12UIEdgeInsetsVvp"></a>
+                    <a name="//apple_ref/swift/Property/padding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC7paddingSo12UIEdgeInsetsVvp">padding</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>内边距</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">padding</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC14showYAxisLabelAA19CHYAxisShowPositionOvp"></a>
+                    <a name="//apple_ref/swift/Property/showYAxisLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC14showYAxisLabelAA19CHYAxisShowPositionOvp">showYAxisLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示y的位置，默认右边</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">showYAxisLabel</span><span class="p">:</span> <span class="kt"><a href="../Enums/CHYAxisShowPosition.html">CHYAxisShowPosition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC12isInnerYAxisSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isInnerYAxis" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC12isInnerYAxisSbvp">isInnerYAxis</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否把y坐标内嵌到图表仲</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">isInnerYAxis</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC03bidC11OnDirectionAA08CHKDepthcfG0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/bidChartOnDirection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC03bidC11OnDirectionAA08CHKDepthcfG0Ovp">bidChartOnDirection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>买单在右边</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">bidChartOnDirection</span><span class="p">:</span> <span class="kt"><a href="../Enums/CHKDepthChartOnDirection.html">CHKDepthChartOnDirection</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC14showXAxisLabelSbvp"></a>
+                    <a name="//apple_ref/swift/Property/showXAxisLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC14showXAxisLabelSbvp">showXAxisLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否显示X轴标签</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">showXAxisLabel</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(py)delegate"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>代理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="kd">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CHKDepthChartDelegate.html">CHKDepthChartDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9enableTapSbvp"></a>
+                    <a name="//apple_ref/swift/Property/enableTap" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9enableTapSbvp">enableTap</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">enableTap</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC11borderWidth12CoreGraphics7CGFloatV3top_AG4leftAG6bottomAG5righttvp"></a>
+                    <a name="//apple_ref/swift/Property/borderWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC11borderWidth12CoreGraphics7CGFloatV3top_AG4leftAG6bottomAG5righttvp">borderWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示边线上左下有</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">borderWidth</span><span class="p">:</span> <span class="p">(</span><span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9lineWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/lineWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9lineWidth12CoreGraphics7CGFloatVvp">lineWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">lineWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9plotCountSivp"></a>
+                    <a name="//apple_ref/swift/Property/plotCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9plotCountSivp">plotCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>档位个数</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">plotCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC8lowPrice12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/lowPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC8lowPrice12CoreGraphics7CGFloatVvp">lowPrice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>最低价格</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">lowPrice</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC11heightPrice12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/heightPrice" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC11heightPrice12CoreGraphics7CGFloatVvp">heightPrice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>最高价格</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">heightPrice</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC10priceRange12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/priceRange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC10priceRange12CoreGraphics7CGFloatVvp">priceRange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>价格范围</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">priceRange</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC5leftX12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/leftX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC5leftX12CoreGraphics7CGFloatVvp">leftX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>左定点x坐标</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">leftX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC6rightX12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/rightX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC6rightX12CoreGraphics7CGFloatVvp">rightX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>右定点x坐标</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">rightX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC12bidPlotWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/bidPlotWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC12bidPlotWidth12CoreGraphics7CGFloatVvp">bidPlotWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>买单每个档位的宽度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bidPlotWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC12askPlotWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/askPlotWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC12askPlotWidth12CoreGraphics7CGFloatVvp">askPlotWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>卖单每个档位的宽度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">askPlotWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9labelSizeSo6CGSizeVvp"></a>
+                    <a name="//apple_ref/swift/Property/labelSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9labelSizeSo6CGSizeVvp">labelSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">labelSize</span><span class="p">:</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC13selectedPointSo7CGPointVvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC13selectedPointSo7CGPointVvp">selectedPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>点击选中的点</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedPoint</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC22selectedTagGraphslayerAA12CHShapeLayerCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedTagGraphslayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC22selectedTagGraphslayerAA12CHShapeLayerCSgvp">selectedTagGraphslayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>点击选中的标记图形</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedTagGraphslayer</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHShapeLayer.html">CHShapeLayer</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC21selectedItemInfoLayerAA07CHShapeH0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/selectedItemInfoLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC21selectedItemInfoLayerAA07CHShapeH0CSgvp">selectedItemInfoLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>点击选中的数据点view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">selectedItemInfoLayer</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHShapeLayer.html">CHShapeLayer</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC19shouldFormatDoublesSbvp"></a>
+                    <a name="//apple_ref/swift/Property/shouldFormatDoubles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC19shouldFormatDoublesSbvp">shouldFormatDoubles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">shouldFormatDoubles</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9plotWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/plotWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9plotWidth12CoreGraphics7CGFloatVvp">plotWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">plotWidth</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC8bidItemsSayAA08CHKDepthC4ItemCGvp"></a>
+                    <a name="//apple_ref/swift/Property/bidItems" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC8bidItemsSayAA08CHKDepthC4ItemCGvp">bidItems</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>买方深度数据</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">bidItems</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC8askItemsSayAA08CHKDepthC4ItemCGvp"></a>
+                    <a name="//apple_ref/swift/Property/askItems" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC8askItemsSayAA08CHKDepthC4ItemCGvp">askItems</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>卖方深度数据</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">askItems</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9drawLayerAA07CHShapeF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/drawLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9drawLayerAA07CHShapeF0Cvp">drawLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>用于图表的图层</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">drawLayer</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHShapeLayer.html">CHShapeLayer</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC5styleAA07CHKLineC5StyleCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/style" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC5styleAA07CHKLineC5StyleCSgvp">style</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHKLineChartStyle.html">CHKLineChartStyle</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%88%9D%E5%A7%8B%E5%8C%96"></a>
+                <a name="//apple_ref/swift/Section/初始化" class="dashAnchor"></a>
+                <a href="#/%E5%88%9D%E5%A7%8B%E5%8C%96">
+                  <h3 class="section-name">初始化</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(im)initWithFrame:"></a>
+                    <a name="//apple_ref/swift/Method/init(frame:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(im)initWithFrame:">init(frame:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(im)initWithCoder:">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(im)awakeFromNib"></a>
+                    <a name="//apple_ref/swift/Method/awakeFromNib()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(im)awakeFromNib">awakeFromNib()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">awakeFromNib</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC6initUI33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/initUI()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC6initUI33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF">initUI()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化UI</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">initUI</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%86%85%E9%83%A8%E6%96%B9%E6%B3%95"></a>
+                <a name="//apple_ref/swift/Section/内部方法" class="dashAnchor"></a>
+                <a href="#/%E5%86%85%E9%83%A8%E6%96%B9%E6%B3%95">
+                  <h3 class="section-name">内部方法</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Modulus@objc(cs)CHDepthChartView(im)layoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/layoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Modulus@objc(cs)CHDepthChartView(im)layoutSubviews">layoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">layoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9resetData33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9resetData33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF">resetData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化数据</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">resetData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC17computeDepthValue33_DD96ADACC21DB5390E2752A3C6CE39F3LL3for4typeySayAA08CHKDepthC4ItemCG_AA0rcS4TypeOtF"></a>
+                    <a name="//apple_ref/swift/Method/computeDepthValue(for:type:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC17computeDepthValue33_DD96ADACC21DB5390E2752A3C6CE39F3LL3for4typeySayAA08CHKDepthC4ItemCG_AA0rcS4TypeOtF">computeDepthValue(for:type:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>根据数据集合计算出每个元素的深度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">computeDepthValue</span><span class="p">(</span><span class="k">for</span> <span class="nv">items</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a></span><span class="p">],</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/CHKDepthChartItemType.html">CHKDepthChartItemType</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>item</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>数据集合</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC23setSelectedIndexByPointyySo7CGPointVF"></a>
+                    <a name="//apple_ref/swift/Method/setSelectedIndexByPoint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC23setSelectedIndexByPointyySo7CGPointVF">setSelectedIndexByPoint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>设置选中的数据点</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setSelectedIndexByPoint</span><span class="p">(</span><span class="n">_</span> <span class="nv">point</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>point</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9getLocalYy12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/getLocalY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9getLocalYy12CoreGraphics7CGFloatVAGF">getLocalY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取y轴上标签数值对应在坐标系中的y值</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getLocalY</span><span class="p">(</span><span class="n">_</span> <span class="nv">val</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>val</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>标签值</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>坐标系中实际的y值</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC11getRawValuey12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/getRawValue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC11getRawValuey12CoreGraphics7CGFloatVAGF">getRawValue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取坐标系中y坐标对应的y值</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getRawValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>y</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%BB%98%E5%9B%BE%E7%9B%B8%E5%85%B3%E6%96%B9%E6%B3%95"></a>
+                <a name="//apple_ref/swift/Section/绘图相关方法" class="dashAnchor"></a>
+                <a href="#/%E7%BB%98%E5%9B%BE%E7%9B%B8%E5%85%B3%E6%96%B9%E6%B3%95">
+                  <h3 class="section-name">绘图相关方法</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC011removeLayerD0yyF"></a>
+                    <a name="//apple_ref/swift/Method/removeLayerView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC011removeLayerD0yyF">removeLayerView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>清空图表的子图层</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeLayerView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC09drawLayerD0yyF"></a>
+                    <a name="//apple_ref/swift/Method/drawLayerView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC09drawLayerD0yyF">drawLayerView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>通过CALayer方式画图表</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">drawLayerView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC04drawC5Frame33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/drawChartFrame()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC04drawC5Frame33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF">drawChartFrame()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制图表框</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">drawChartFrame</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>是否初始化数据</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC10initXYAxis33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/initXYAxis()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC10initXYAxis33_DD96ADACC21DB5390E2752A3C6CE39F3LLyyF">initXYAxis()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化分区上XY轴的数值</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">initXYAxis</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC9drawYAxis33_DD96ADACC21DB5390E2752A3C6CE39F3LLSaySo6CGRectV_SStGyF"></a>
+                    <a name="//apple_ref/swift/Method/drawYAxis()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC9drawYAxis33_DD96ADACC21DB5390E2752A3C6CE39F3LLSaySo6CGRectV_SStGyF">drawYAxis()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制Y轴左边</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">drawYAxis</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[(</span><span class="kt">CGRect</span><span class="p">,</span> <span class="kt">String</span><span class="p">)]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>section</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>分区</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC14drawYAxisLabel33_DD96ADACC21DB5390E2752A3C6CE39F3LLyySaySo6CGRectV_SStGF"></a>
+                    <a name="//apple_ref/swift/Method/drawYAxisLabel(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC14drawYAxisLabel33_DD96ADACC21DB5390E2752A3C6CE39F3LLyySaySo6CGRectV_SStGF">drawYAxisLabel(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制y轴坐标上的标签</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">drawYAxisLabel</span><span class="p">(</span><span class="n">_</span> <span class="nv">yAxisToDraw</span><span class="p">:</span> <span class="p">[(</span><span class="kt">CGRect</span><span class="p">,</span> <span class="kt">String</span><span class="p">)])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>yAxisToDraw</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC14drawXAxisLabel33_DD96ADACC21DB5390E2752A3C6CE39F3LL11xAxisToDrawySaySo6CGRectV_SStG_tF"></a>
+                    <a name="//apple_ref/swift/Method/drawXAxisLabel(xAxisToDraw:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC14drawXAxisLabel33_DD96ADACC21DB5390E2752A3C6CE39F3LL11xAxisToDrawySaySo6CGRectV_SStG_tF">drawXAxisLabel(xAxisToDraw:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制X轴上的标签</p>
+
+<p>fileprivate func drawXAxis(_ section: CHSection) -&gt; [(CGRect, String)] {</p>
+
+<p>var xAxisToDraw = <a href="">(CGRect, String)</a></p>
+
+<p>let xAxis = CHShapeLayer()</p>
+
+<p>var startX: CGFloat = section.frame.origin.x + section.padding.left
+let endX: CGFloat = section.frame.origin.x + section.frame.size.width - section.padding.right
+let secWidth: CGFloat = section.frame.size.width
+let secPaddingLeft: CGFloat = section.padding.left
+let secPaddingRight: CGFloat = section.padding.right</p>
+
+<p>//x轴分平均分4个间断，显示5个x轴坐标，按照图表的值个数，计算每个间断的个数
+let dataRange = self.rangeTo - self.rangeFrom
+let xTickInterval: Int = dataRange / self.xAxisPerInterval</p>
+
+<p>//绘制x轴标签
+//每个点的间隔宽度
+let perPlotWidth: CGFloat = (secWidth - secPaddingLeft - secPaddingRight) / CGFloat(self.rangeTo - self.rangeFrom)
+let startY = section.frame.maxY
+var k: Int = 0
+var showXAxisReference = false
+//相当 for var i = self.rangeFrom; i &lt; self.rangeTo; i = i + xTickInterval
+for i in stride(from: self.rangeFrom, to: self.rangeTo, by: xTickInterval) {</p>
+
+<p>let xLabel = self.delegate?.kLineChart?(chart: self, labelOnXAxisForIndex: i) ?? &ldquo;<q>
+var textSize = xLabel.ch_sizeWithConstrained(self.labelFont)
+textSize.width = textSize.width + 4
+var xPox = startX - textSize.width / 2 + perPlotWidth / 2
+//计算最左最右的x轴标签不越过边界
+if (xPox < 0) {
+xPox = startX
+} else if (xPox + textSize.width > endX) {
+xPox = xPox - (xPox + textSize.width - endX)
+}
+//        NSLog(@</q>xPox = %f<q>, xPox)
+//        NSLog(@</q>textSize.width = %f&rdquo;, textSize.width)
+let barLabelRect = CGRect(x: xPox, y: startY, width: textSize.width, height: textSize.height)</p>
+
+<p>//记录待绘制的文本
+xAxisToDraw.append((barLabelRect, xLabel))</p>
+
+<p>//绘制辅助线
+let referencePath = UIBezierPath()
+let referenceLayer = CHShapeLayer()
+referenceLayer.lineWidth = self.lineWidth</p>
+
+<p>//处理辅助线样式
+switch section.xAxis.referenceStyle {
+case let .dash(color: dashColor, pattern: pattern):
+referenceLayer.strokeColor = dashColor.cgColor
+referenceLayer.lineDashPattern = pattern
+showXAxisReference = true
+case let .solid(color: solidColor):
+referenceLayer.strokeColor = solidColor.cgColor
+showXAxisReference = true
+default:
+showXAxisReference = false
+}</p>
+
+<p>//需要画x轴上的辅助线
+if showXAxisReference {
+referencePath.move(to: CGPoint(x: xPox + textSize.width / 2, y: section.frame.minY))
+referencePath.addLine(to: CGPoint(x: xPox + textSize.width / 2, y: section.frame.maxY))
+referenceLayer.path = referencePath.cgPath
+xAxis.addSublayer(referenceLayer)
+}</p>
+
+<p>k = k + xTickInterval
+startX = perPlotWidth * CGFloat(k)
+}</p>
+
+<p>self.drawLayer.addSublayer(xAxis)</p>
+
+<p>return xAxisToDraw
+}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="nf">drawXAxisLabel</span><span class="p">(</span><span class="nv">xAxisToDraw</span><span class="p">:</span> <span class="p">[(</span><span class="kt">CGRect</span><span class="p">,</span> <span class="kt">String</span><span class="p">)])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC12drawTagGraph5point4itemySo7CGPointV_AA08CHKDepthC4ItemCtF"></a>
+                    <a name="//apple_ref/swift/Method/drawTagGraph(point:item:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC12drawTagGraph5point4itemySo7CGPointV_AA08CHKDepthC4ItemCtF">drawTagGraph(point:item:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制点击选中标记图形</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">drawTagGraph</span><span class="p">(</span><span class="nv">point</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">item</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>section</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC12drawItemInfo5point4itemySo7CGPointV_AA08CHKDepthcF0CtF"></a>
+                    <a name="//apple_ref/swift/Method/drawItemInfo(point:item:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC12drawItemInfo5point4itemySo7CGPointV_AA08CHKDepthcF0CtF">drawItemInfo(point:item:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制点击选中显示数据点</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">drawItemInfo</span><span class="p">(</span><span class="nv">point</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">item</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>section</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC17isFirstRectInside05firstG017axisELementsArraySbSo6CGRectV_SayAH_SStGtF"></a>
+                    <a name="//apple_ref/swift/Method/isFirstRectInside(firstRect:axisELementsArray:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC17isFirstRectInside05firstG017axisELementsArraySbSo6CGRectV_SayAH_SStGtF">isFirstRectInside(firstRect:axisELementsArray:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isFirstRectInside</span><span class="p">(</span><span class="nv">firstRect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">axisELementsArray</span><span class="p">:</span> <span class="p">[(</span><span class="kt">CGRect</span><span class="p">,</span> <span class="kt">String</span><span class="p">)])</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC04drawC0SaySo6CGRectV_SStGyF"></a>
+                    <a name="//apple_ref/swift/Method/drawChart()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC04drawC0SaySo6CGRectV_SStGyF">drawChart()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制图表上的点线</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">drawChart</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[(</span><span class="kt">CGRect</span><span class="p">,</span> <span class="kt">String</span><span class="p">)]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>section</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC09drawDepthC05items6startX9plotWidth11strokeColor04fillL004lineJ0So12CAShapeLayerCSgSayAA08CHKDepthC4ItemCG_12CoreGraphics7CGFloatVASSo7UIColorCAuStF"></a>
+                    <a name="//apple_ref/swift/Method/drawDepthChart(items:startX:plotWidth:strokeColor:fillColor:lineWidth:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC09drawDepthC05items6startX9plotWidth11strokeColor04fillL004lineJ0So12CAShapeLayerCSgSayAA08CHKDepthC4ItemCG_12CoreGraphics7CGFloatVASSo7UIColorCAuStF">drawDepthChart(items:startX:plotWidth:strokeColor:fillColor:lineWidth:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>绘制买单深度图层</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">drawDepthChart</span><span class="p">(</span><span class="nv">items</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a></span><span class="p">],</span>
+                    <span class="nv">startX</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                    <span class="nv">plotWidth</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span>
+                    <span class="nv">strokeColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span>
+                    <span class="nv">fillColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span>
+                    <span class="nv">lineWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CAShapeLayer</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>items</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>数据集</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>startIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>数据起始位置</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>strokeColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>线条颜色</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fillColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>填充颜色</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%85%AC%E5%BC%80%E6%96%B9%E6%B3%95"></a>
+                <a name="//apple_ref/swift/Section/公开方法" class="dashAnchor"></a>
+                <a href="#/%E5%85%AC%E5%BC%80%E6%96%B9%E6%B3%95">
+                  <h3 class="section-name">公开方法</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC10reloadDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/reloadData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC10reloadDatayyF">reloadData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>刷新视图</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reloadData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC10resetStyle5styleyAA07CHKLinecF0C_tF"></a>
+                    <a name="//apple_ref/swift/Method/resetStyle(style:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC10resetStyle5styleyAA07CHKLinecF0C_tF">resetStyle(style:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>刷新风格</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetStyle</span><span class="p">(</span><span class="nv">style</span><span class="p">:</span> <span class="kt"><a href="../Classes/CHKLineChartStyle.html">CHKLineChartStyle</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>style</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>新风格</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus16CHDepthChartViewC5imageSo7UIImageCvp"></a>
+                    <a name="//apple_ref/swift/Property/image" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus16CHDepthChartViewC5imageSo7UIImageCvp">image</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>生成截图</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%89%8B%E5%8A%BF%E6%93%8D%E4%BD%9C"></a>
+                <a name="//apple_ref/swift/Section/手势操作" class="dashAnchor"></a>
+                <a href="#/%E6%89%8B%E5%8A%BF%E6%93%8D%E4%BD%9C">
+                  <h3 class="section-name">手势操作</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Modulus@objc(cs)CHDepthChartView(im)gestureRecognizer:shouldReceiveTouch:"></a>
+                    <a name="//apple_ref/swift/Method/gestureRecognizer(_:shouldReceive:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Modulus@objc(cs)CHDepthChartView(im)gestureRecognizer:shouldReceiveTouch:">gestureRecognizer(_:shouldReceive:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>控制手势开关</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldReceive</span> <span class="nv">touch</span><span class="p">:</span> <span class="kt">UITouch</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Modulus@objc(cs)CHDepthChartView(im)doTapAction:"></a>
+                    <a name="//apple_ref/swift/Method/doTapAction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Modulus@objc(cs)CHDepthChartView(im)doTapAction:">doTapAction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>点击事件处理</p>
+
+<p>@param sender</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">doTapAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-01-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

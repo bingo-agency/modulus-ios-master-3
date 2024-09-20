@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mark Simonson - Proxima Nova Alt Regular.otf">
+            <string>ProximaNovaA-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MDPlusMinusView" customModule="Modulus" customModuleProvider="target">
+            <connections>
+                <outlet property="plusMinusView" destination="KyJ-ru-Wuf" id="Qxm-gI-fpL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KyJ-ru-Wuf">
+                    <rect key="frame" x="0.0" y="10" width="301" height="45.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ui5-jT-5BV">
+                            <rect key="frame" x="255.5" y="0.0" width="45.5" height="45.5"/>
+                            <color key="backgroundColor" red="0.18039215689999999" green="0.17254901959999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Ui5-jT-5BV" secondAttribute="height" multiplier="1:1" id="PPx-Ei-rIz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="+">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhI-Sz-duq">
+                            <rect key="frame" x="0.0" y="0.0" width="45.5" height="45.5"/>
+                            <color key="backgroundColor" red="0.18039215689999999" green="0.17254901959999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="NhI-Sz-duq" secondAttribute="height" multiplier="1:1" id="Ajc-rq-NfZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <state key="normal" title="-">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Amount" placeholder="Amount BTC" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKj-e7-CP2">
+                            <rect key="frame" x="45.5" y="0.0" width="210" height="45.5"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.1450980392" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="NhI-Sz-duq" firstAttribute="top" secondItem="KyJ-ru-Wuf" secondAttribute="top" id="1ws-2h-EtN"/>
+                        <constraint firstAttribute="bottom" secondItem="NhI-Sz-duq" secondAttribute="bottom" id="Aps-Vq-BjU"/>
+                        <constraint firstItem="Ui5-jT-5BV" firstAttribute="top" secondItem="KyJ-ru-Wuf" secondAttribute="top" id="FbS-g2-Siz"/>
+                        <constraint firstItem="BKj-e7-CP2" firstAttribute="leading" secondItem="NhI-Sz-duq" secondAttribute="trailing" id="IQJ-zd-GTs"/>
+                        <constraint firstAttribute="bottom" secondItem="Ui5-jT-5BV" secondAttribute="bottom" id="Mjh-QG-ze0"/>
+                        <constraint firstAttribute="bottom" secondItem="BKj-e7-CP2" secondAttribute="bottom" id="OO8-zV-79K"/>
+                        <constraint firstItem="BKj-e7-CP2" firstAttribute="top" secondItem="KyJ-ru-Wuf" secondAttribute="top" id="WZM-eV-NXb"/>
+                        <constraint firstAttribute="trailing" secondItem="Ui5-jT-5BV" secondAttribute="trailing" id="gF3-hB-0VX"/>
+                        <constraint firstItem="NhI-Sz-duq" firstAttribute="leading" secondItem="KyJ-ru-Wuf" secondAttribute="leading" id="r8T-UD-WAj"/>
+                        <constraint firstItem="Ui5-jT-5BV" firstAttribute="leading" secondItem="BKj-e7-CP2" secondAttribute="trailing" id="yPt-5x-3Dd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KyJ-ru-Wuf" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.7" id="5CJ-JN-F0S"/>
+                <constraint firstItem="KyJ-ru-Wuf" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="XiA-9S-DOq"/>
+                <constraint firstItem="KyJ-ru-Wuf" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="czV-0a-3gU"/>
+                <constraint firstItem="KyJ-ru-Wuf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vwW-hl-pjv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="84" y="411"/>
+        </view>
+    </objects>
+</document>

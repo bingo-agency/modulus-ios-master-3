@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Modulus
+
+  Created by Rahul on 30/09/20.
+  Copyright © 2020 Bhavesh Sarwar. All rights reserved.
+*/
+"appTitle" = "PressX";
+"appName" = "PressX";
+//MDExchangeTokenVC
+"Pay_trading_fees_with_currency" = "Pay Trading Fees with %@";
+"when_you_enroll_pay_with" = "When you enroll into pay with %@ program, instead of paying trading fees in base or quote currency, you will be paying an equivalent amount from your %@ balance.";
+
+"your_trading_disc_will" = "Your trading fee discount will be determined by the amount of %@ that is currently held in your account";
+"trade_history" = "Trade History";

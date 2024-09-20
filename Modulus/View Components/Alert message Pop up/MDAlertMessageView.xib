@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mark Simonson - Proxima Nova Alt Regular.otf">
+            <string>ProximaNovaA-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDAlertMessageView" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s5T-SE-7xP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BkY-Jt-ZCd">
+                            <rect key="frame" x="50.5" y="242" width="274" height="183"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please complete the  withdrawal process by clicking on the link in your email inbox" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujT-YV-W3V">
+                                    <rect key="frame" x="16.5" y="40" width="241" height="48"/>
+                                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l78-iF-mfY">
+                                    <rect key="frame" x="77" y="113" width="120" height="39"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <accessibility key="accessibilityConfiguration" hint="OKButton" identifier="OKButton" label="OKButton"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="l78-iF-mfY" secondAttribute="height" multiplier="111:36" id="xh9-S4-Usl"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <state key="normal" title="OK">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="okButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="lM1-gj-hcs"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                            <constraints>
+                                <constraint firstItem="ujT-YV-W3V" firstAttribute="centerX" secondItem="BkY-Jt-ZCd" secondAttribute="centerX" id="4SV-Ny-pH7"/>
+                                <constraint firstItem="l78-iF-mfY" firstAttribute="top" secondItem="ujT-YV-W3V" secondAttribute="bottom" constant="25" id="B1m-Is-gvr"/>
+                                <constraint firstItem="l78-iF-mfY" firstAttribute="centerX" secondItem="BkY-Jt-ZCd" secondAttribute="centerX" id="CPJ-wG-554"/>
+                                <constraint firstItem="l78-iF-mfY" firstAttribute="width" secondItem="BkY-Jt-ZCd" secondAttribute="width" multiplier="0.44" id="JYG-DZ-RWf"/>
+                                <constraint firstItem="ujT-YV-W3V" firstAttribute="centerY" secondItem="BkY-Jt-ZCd" secondAttribute="centerY" multiplier="0.7" id="Qi8-kw-5nG"/>
+                                <constraint firstAttribute="width" secondItem="BkY-Jt-ZCd" secondAttribute="height" multiplier="1:0.67" id="dD9-EW-JSh"/>
+                                <constraint firstItem="ujT-YV-W3V" firstAttribute="width" secondItem="BkY-Jt-ZCd" secondAttribute="width" multiplier="0.88" id="opg-NB-fst"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.070588235289999995" green="0.058823529409999999" blue="0.1333333333" alpha="0.70367517609999997" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="BkY-Jt-ZCd" firstAttribute="centerY" secondItem="s5T-SE-7xP" secondAttribute="centerY" id="5a1-oz-uVC"/>
+                        <constraint firstItem="BkY-Jt-ZCd" firstAttribute="centerX" secondItem="s5T-SE-7xP" secondAttribute="centerX" id="IAY-uE-wbn"/>
+                        <constraint firstItem="BkY-Jt-ZCd" firstAttribute="width" secondItem="s5T-SE-7xP" secondAttribute="width" multiplier="0.73" id="JXJ-zx-kf1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.070588235294117646" green="0.058823529411764705" blue="0.13333333333333333" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="s5T-SE-7xP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xyb-R2-Qka"/>
+                <constraint firstItem="s5T-SE-7xP" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="jet-4c-NYf"/>
+                <constraint firstItem="s5T-SE-7xP" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="uKj-LS-PIH"/>
+                <constraint firstItem="s5T-SE-7xP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ygI-tE-1yw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backgroundView" destination="s5T-SE-7xP" id="uxl-ln-EZF"/>
+                <outlet property="messageLabel" destination="ujT-YV-W3V" id="cBd-0z-ziY"/>
+                <outlet property="messageView" destination="BkY-Jt-ZCd" id="3U5-Dw-Rw8"/>
+                <outlet property="okButton" destination="l78-iF-mfY" id="ON7-Ob-ysq"/>
+            </connections>
+        </view>
+    </objects>
+</document>

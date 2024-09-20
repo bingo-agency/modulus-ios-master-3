@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MDAlert_Popup" customModule="Modulus" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="rGG-44-sfG" id="gE2-62-ZX6"/>
+                <outlet property="btn_no" destination="5BV-lH-tv3" id="Hpd-T9-724"/>
+                <outlet property="btn_yes" destination="dqa-C5-5zQ" id="dCD-KV-cOz"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="3Np-fZ-jaH"/>
+                <outlet property="lbl_text" destination="IkV-Lw-vZT" id="HnH-SS-2kt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="360"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rGG-44-sfG" customClass="UIViewX" customModule="Modulus" customModuleProvider="target">
+                    <rect key="frame" x="10" y="10" width="321" height="340"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkV-Lw-vZT">
+                            <rect key="frame" x="20" y="20" width="281" height="255"/>
+                            <string key="text">Warning!                                     
+This change will invalidate all your previous sessions including current session and you will be immediately signed out. Please ensure that you have whitelisted your current IP in order to not get locked out. We urge you to use this feature with extra caution, you may lock out completely if you do not have a static IP from your ISP.
+
+Do you want to continue with the change?</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Hz-tl-X60">
+                            <rect key="frame" x="0.0" y="285" width="306" height="40"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aTA-Jd-jCO">
+                                    <rect key="frame" x="15" y="0.0" width="291" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqa-C5-5zQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="137.66666666666666" height="40"/>
+                                            <color key="backgroundColor" red="0.90661567450000002" green="0.15751352909999999" blue="0.1848559082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="Yes">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btn_yesAction:" destination="-1" eventType="touchUpInside" id="iIz-rT-OZV"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BV-lH-tv3">
+                                            <rect key="frame" x="153.66666666666663" y="0.0" width="137.33333333333337" height="40"/>
+                                            <color key="backgroundColor" red="0.90661567450000002" green="0.15751352909999999" blue="0.1848559082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="No">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btn_noAction:" destination="-1" eventType="touchUpInside" id="Es7-ht-Lho"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="aTA-Jd-jCO" firstAttribute="top" secondItem="2Hz-tl-X60" secondAttribute="top" id="5B2-Vv-inh"/>
+                                <constraint firstAttribute="bottom" secondItem="aTA-Jd-jCO" secondAttribute="bottom" id="JWv-DL-NaJ"/>
+                                <constraint firstAttribute="height" constant="40" id="KDF-3f-Ceh"/>
+                                <constraint firstAttribute="trailing" secondItem="aTA-Jd-jCO" secondAttribute="trailing" id="QTH-eV-65y"/>
+                                <constraint firstItem="aTA-Jd-jCO" firstAttribute="leading" secondItem="2Hz-tl-X60" secondAttribute="leading" constant="15" id="sqa-XI-Qff"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    <constraints>
+                        <constraint firstItem="IkV-Lw-vZT" firstAttribute="leading" secondItem="rGG-44-sfG" secondAttribute="leading" constant="20" id="1u5-xH-xkb"/>
+                        <constraint firstAttribute="trailing" secondItem="2Hz-tl-X60" secondAttribute="trailing" constant="15" id="ABk-6m-dft"/>
+                        <constraint firstAttribute="trailing" secondItem="IkV-Lw-vZT" secondAttribute="trailing" constant="20" id="O7k-Qq-lfO"/>
+                        <constraint firstAttribute="bottom" secondItem="2Hz-tl-X60" secondAttribute="bottom" constant="15" id="ZGm-ed-hgd"/>
+                        <constraint firstItem="IkV-Lw-vZT" firstAttribute="top" secondItem="rGG-44-sfG" secondAttribute="top" constant="20" id="kb0-Wy-9a8"/>
+                        <constraint firstItem="2Hz-tl-X60" firstAttribute="leading" secondItem="rGG-44-sfG" secondAttribute="leading" id="ks6-gz-6pI"/>
+                        <constraint firstItem="2Hz-tl-X60" firstAttribute="top" secondItem="IkV-Lw-vZT" secondAttribute="bottom" constant="10" id="rCE-Tw-dem"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rGG-44-sfG" secondAttribute="trailing" constant="10" id="1Jf-er-rl3"/>
+                <constraint firstItem="rGG-44-sfG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="NpQ-Bq-JeX"/>
+                <constraint firstItem="rGG-44-sfG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="ez3-2a-Mxl"/>
+                <constraint firstAttribute="bottom" secondItem="rGG-44-sfG" secondAttribute="bottom" constant="10" id="iF6-kM-y96"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-290.57971014492756" y="-137.61160714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MarketDepthData Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/MarketDepthData" class="dashAnchor"></a>
+    <a title="MarketDepthData Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (13% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MarketDepthData Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate/AppUtility.html">– AppUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArcView.html">ArcView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseWindow.html">BaseWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Bicycle.html">Bicycle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Bicycle/Style.html">– Style</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHDepthChartView.html">CHDepthChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHKDepthChartItem.html">CHKDepthChartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHKLineChartStyle.html">CHKLineChartStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHShapeLayer.html">CHShapeLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CHTextLayer.html">CHTextLayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CircularProgressView.html">CircularProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CircularProgressView/Animation.html">– Animation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ClosureWrapper.html">ClosureWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ColorUtil.html">ColorUtil</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CountryCodeCell.html">CountryCodeCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Modulus@objc(cs)Extensions">Extensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Flag.html">Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FlagKit.html">FlagKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientArcView.html">GradientArcView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientArcWithClearColorView.html">GradientArcWithClearColorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientCircularProgress.html">GradientCircularProgress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/INDepthChartView.html">INDepthChartView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAccountCell.html">MDAccountCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAccountVC.html">MDAccountVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAccountVC/segueIdentifiers.html">– segueIdentifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAlertMessageView.html">MDAlertMessageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAlertPopupView.html">MDAlertPopupView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance.html">MDAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/Colors.html">– Colors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/Fonts.html">– Fonts</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/Proxima_Nova.html">– Proxima_Nova</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDAppearance/tags.html">– tags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDButtonPrice.html">MDButtonPrice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDButtonWithImage.html">MDButtonWithImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDButtonWithImageOnRight.html">MDButtonWithImageOnRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDBuySellOrderCell.html">MDBuySellOrderCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDBuySellVC.html">MDBuySellVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDChangePasswordVC.html">MDChangePasswordVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDChangeScreenCell.html">MDChangeScreenCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDCurrencyVC.html">MDCurrencyVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDarkTheme.html">MDDarkTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDepositVC.html">MDDepositVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDropDownCell.html">MDDropDownCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDropDownVC.html">MDDropDownVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDDummyTheme.html">MDDummyTheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDForgotPasswordVC.html">MDForgotPasswordVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDGoogleAuthVC.html">MDGoogleAuthVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDHelper.html">MDHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDHistoryCell.html">MDHistoryCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDLoginVC.html">MDLoginVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDMarketListCell.html">MDMarketListCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDMarketOverViewVC.html">MDMarketOverViewVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDNetworkManager.html">MDNetworkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDOTPVerification.html">MDOTPVerification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDOrderTradeCell.html">MDOrderTradeCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDOrdersListCell.html">MDOrdersListCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDPlusMinusView.html">MDPlusMinusView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDPopupView.html">MDPopupView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSecurityVerifcationVC.html">MDSecurityVerifcationVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSettingURLVC.html">MDSettingURLVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSideCornerLeftButton.html">MDSideCornerLeftButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSideCornerRightButton.html">MDSideCornerRightButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSideCornerView.html">MDSideCornerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSignUpVC.html">MDSignUpVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSignalRManager.html">MDSignalRManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDSnackBarHelper.html">MDSnackBarHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDTextField.html">MDTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWalletHelper.html">MDWalletHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWalletHistoryVC.html">MDWalletHistoryVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWalletVC.html">MDWalletVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWebSocketManager.html">MDWebSocketManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MDWithdrawVC.html">MDWithdrawVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MarketDepthData.html">MarketDepthData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MarketListHeaders.html">MarketListHeaders</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MarketListVC.html">MarketListVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderListHeaders.html">OrderListHeaders</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressAtRatioView.html">ProgressAtRatioView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressView.html">ProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressViewController.html">ProgressViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SecurityVerficationCells.html">SecurityVerficationCells</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Theme.html">Theme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TriangleView.html">TriangleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewController.html">ViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/currencyCell.html">currencyCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/currencyDropdownCell.html">currencyDropdownCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/currencyPairDropdownCell.html">currencyPairDropdownCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@Modulus@objc(cs)customPlaceHolderTextField">customPlaceHolderTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:7Modulus4demoC">demo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/languageCell.html">languageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/sortIndicatorStackView.html">sortIndicatorStackView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/walletBalanceCurrencyCell.html">walletBalanceCurrencyCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BackgroundStyles.html">BackgroundStyles</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHAxisReferenceStyle.html">CHAxisReferenceStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHKDepthChartItemType.html">CHKDepthChartItemType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHKDepthChartOnDirection.html">CHKDepthChartOnDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHUIPanDirectionType.html">CHUIPanDirectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHUltimateValueStyle.html">CHUltimateValueStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CHYAxisShowPosition.html">CHYAxisShowPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CryptoAlgorithm.html">CryptoAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExchangeType.html">ExchangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FlagStyle.html">FlagStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OTPScreenType.html">OTPScreenType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WalletType.html">WalletType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/dropDownType.html">dropDownType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/sortOptions.html">sortOptions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDictionary.html">NSDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton/AssociatedKeys.html">– AssociatedKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField/PaddingMode.html">– PaddingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CHKDepthChartDelegate.html">CHKDepthChartDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StyleProperty.html">StyleProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThemeProtocol.html">ThemeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/alertPopupDelegate.html">alertPopupDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/alertPopupMessageDelegate.html">alertPopupMessageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/customDropDownDelegates.html">customDropDownDelegates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/signalRDataDelegates.html">signalRDataDelegates</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Background.html">Background</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlueDarkStyle.html">BlueDarkStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlueIndicatorStyle.html">BlueIndicatorStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CHXAxis.html">CHXAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CHYAxis.html">CHYAxis</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ConstantSizes.html">ConstantSizes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GreenLightStyle.html">GreenLightStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MyStyle.html">MyStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OrangeClearStyle.html">OrangeClearStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Property.html">Property</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScreenTypeTextFieldTags.html">ScreenTypeTextFieldTags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Style.html">Style</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7Modulus15CompletionBlocka">CompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7Modulus21UIButtonTargetClosurea">UIButtonTargetClosure</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MarketDepthData</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">MarketDepthData</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus15MarketDepthDataC12currencyTypeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/currencyType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus15MarketDepthDataC12currencyTypeSSvp">currencyType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currencyType</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus15MarketDepthDataC5priceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/price" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus15MarketDepthDataC5priceSdvp">price</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">price</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus15MarketDepthDataC8quantitySSvp"></a>
+                    <a name="//apple_ref/swift/Property/quantity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus15MarketDepthDataC8quantitySSvp">quantity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">quantity</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Modulus15MarketDepthDataC12exchangeTypeAA08ExchangeF0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/exchangeType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Modulus15MarketDepthDataC12exchangeTypeAA08ExchangeF0OSgvp">exchangeType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">exchangeType</span><span class="p">:</span> <span class="kt"><a href="../Enums/ExchangeType.html">ExchangeType</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/init(json:currencyType:exchangeType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">init(json:currencyType:exchangeType:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">json</span><span class="p">:</span> <span class="kt">JSON</span><span class="p">,</span> <span class="nv">currencyType</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">exchangeType</span><span class="p">:</span> <span class="kt"><a href="../Enums/ExchangeType.html">ExchangeType</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-01-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

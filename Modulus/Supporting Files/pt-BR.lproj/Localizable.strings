@@ -1,0 +1,319 @@
+/* 
+  Localizable.strings
+  Modulus
+
+  Created by Rahul on 30/09/20.
+  Copyright © 2020 Bhavesh Sarwar. All rights reserved.
+*/
+//MARK: - Login Screen
+"Please enter"="Favor inserir";
+"LOGIN" = "Login";
+"Sign up" = "Entrar";
+"NOT NOW" = "AGORA NÃO";
+"Forgot password?" = "Esqueceu a senha?";
+"Password" = "Senha";
+"Email" = "Email";
+"Please enter valid email" = "Favor informar um e-mail válido";
+"Please enter password" = "Favor informar a senha";
+"Do you want to Login to use this feature ?"="Você deseja fazer o login para usar este recurso??";
+
+//MARK: - Forgot Password Screen
+"Forgot Password" = "Esqueceu a Senha";
+"Please enter your email" = "Favor informar seu email";
+"SEND VERIFICATION EMAIL" = "ENVIAR EMAIL DE VERIFICAÇÃO.";
+"please check your inbox for password reset link" = "Verifique a sua caixa de entrada para o link de redefinição de senha";
+
+
+//MARK: - Sign up Screen
+"Sign Up" = "Cadastre-se";
+"SIGN UP" = "CADASTRE-SE";
+
+
+"Name" = "Nome";
+"Confirm Password" = "Confirme a Senha";
+"Country" = "País";
+"Mobile" = "Telefone Celular";
+"Middle Name" = "Nome do Meio";
+"Last Name" = "Sobrenome";
+
+
+"Please complete the sign-up process by clicking on the link in your email inbox" = "Por favor, complete o seu cadastro clicando no link enviado para o seu e-mail";
+"Password and confirm password do not match" = "A confirmação de senha não confere";
+"Please enter valid password"  ="Favor informar a validação de senha";
+"Please enter confirm password"  = "Favor confirmar a senha";
+"Please enter country" = "Favor informar o País";
+"Please enter mobile number" = "Favor informar o telefone celular.";
+"Please enter valid mobile number" = "Favor informar um número de celular válido";
+"Please enter first name" = "Favor inserir o primeiro nome";
+"Please enter last name" = "Favor inserir o sobrenome";
+"Search Country" = "Procurar País";
+"Please select country" = "Favor selecionar o País";
+"Have an account already?  Log in" = "Você já tem uma conta? Log in";
+"Password must be no less than 7 characters including  uppercase and lowercase letters" = "A senha deve ter no mínimo 7 caracteres e conter letras maiúsculas e minúsculas";
+
+
+
+//MARK: - OTP Verification Screen
+"SUBMIT" = "ENVIAR";
+"Get a verification code from 'Google Authenticator' app" = "Obtenha um código de verificação do aplicativo Google Authenticator";
+"Please enter the One Time Password (OTP) which was sent to" = "Por favor, digite a senha de uso único (OTP) que foi enviada para";
+"Security verification" = "Verificação de Segurança";
+"Didn't Receive OTP? Send again" = "Não recebeu OTP? Envie novamente";
+"OTP has been successfully sent" = "OTP foi enviado com sucesso";
+"Please Enter OTP" = "Por favor, insira OTP";
+"Didn't Receive OTP ?" = "Não recebeu OTP?";
+" Send again" = " Enviar novamente";
+//MARK: - Tab Bar
+"Wallet" = "Carteira";
+"Account" = "Conta";
+
+
+//MARK: - MarketList Screen
+"Market" = "Mercado";
+"Vol" = "Vol";
+"Last Price" = "Último Preço";
+"Change" = "Alterar";
+"No data available" = "Não há dados disponíveis";
+
+//MARK: - Market OverView Screen
+"High" = "Alta";
+"Low" = "Baixa";
+"MARKET" = "MERCADO" ;
+"DEPTH" = "PROFUNDIDADE";
+"Amount" = "Quantidade" ;
+"Volume" = "Volume";
+"ORDER BOOK" = "LIVRO DE ORDENS" ;
+"TRADE HISTORY" = "HISTÓRICO DE TRADING";
+"AVAILABLE" = "DISPONÍVEL";
+"IN ORDER" = "EM ORDEM";
+"CONVERT BTC" = "CONVERTER BTC" ;
+"BUY" = "COMPRAR";
+"SELL" = "VENDER";
+"No Depth chart data available" = "Não há dados do gráfico de profundidade disponíveis" ;
+
+
+
+//MARK: - Order Screen
+"Orders" = "Ordens";
+"Are you sure you want to cancel this order?" = "Tem certeza de que deseja cancelar esta ordem?";
+"Order has been cancelled" = "A ordem foi cancelada";
+"Trading Pair" = "Pares de Trading";
+"Price" = "Fiat";
+"Amount Filled" = "Quantidade preenchida";
+"Total Amount" = "Quantidade Total";
+"CANCEL" = "CANCELAR";
+
+
+//MARK: - Buy/Sell Screen
+"Order placed successfully."="Ordem colocada com sucesso.";
+"Good till cancelled" = "Bom até cancelado";
+"Immediate or cancel" = "Imediato ou cancelar" ;
+"Fill or Kill" = "Preencha ou Finalize" ;
+"Day only" = "Somente dia";
+"Ask Price" = "Preço de Compra";
+"Bid Price" = "Preço de Venda";
+"Sell" = "Vender";
+"Buy" = "Comprar";
+"All" = "Todos";
+"Highest bid" = "Maior valor de venda";
+"Lowest ask" = "Menor valor de compra";
+"Are you sure you want to place this order?"= "Tem certeza de que deseja colocar esta ordem?";
+"Please enter volume value" = "Favor insira o valor do volume";
+"Please enter limit value" ="Favor insira o valor limite";
+"Please enter stop value" = "Favor insira o valor de parada";
+"Please enter volume value" = "Favor insira o valor do volume";
+"Please enter price value" = "Favor insira o valor do preço";
+"Time in Force" = "Restrição de Tempo";
+"Total" = "Total";
+"Stop" = "Parar";
+"All Sell Orders"= "Todas as Ordens de Venda";
+"My Sell Orders" = "Minhas Ordens de Venda";
+"All Buy Orders" = "Todas as Ordens de Compra";
+"My Buy Orders" = "Minhas Ordens de Compra";
+"Buy Orders" = "Comprar Ordens";
+"Sell Orders" = "Vender Ordens";
+"Limit" = "Limite";
+"CONFIRM" = "CONFIRMAR";
+"Stop Market" = "Stop Market";
+"Trailing Stop Market" = "Trailing Stop Market";
+"Absolute Trailing Value" = "Valor Absoluto de Trailing";
+"Trailing Value Percentage" = "Porcentagem de Valor de Trailing";
+
+//MARK: - Account Screen
+"Security Verification" = "Verificação de Segurança";
+"Change Password" = "Mudar Senha";
+"Fiat Currency" = "Moeda Fiat";
+"Order History" = "Histórico de Ordens";
+"Log out" = "Sair";
+"Are you sure you want to logout of this account?" = "Tem certeza de que deseja sair desta conta?";
+
+//MARK: - Fiat Currency
+"Search Currency" = "Procurar Moeda";
+
+//MARK: - Security Verification
+"KYC Verification" = "Verificação KYC";
+
+"YES" = "YES";
+"NO" = "NÃO";
+
+//MARK: - Change Password
+"New Password must be no less than 7 characters" = "A Nova Senha deve ter pelo menos 7 caracteres";
+"Please Enter Values for all fields" = "Favor Preencher os Valores em todos campos" ;
+"* For security purposes no withdrawals are permitted for 24 hours after modification of security methods." = "* Por motivos de segurança, não será permitido saques durante 24 horas após a modificação dos métodos de segurança.";
+"Old Password" = "Senha Antiga";
+"New Password" = "Nova Senha";
+"Confirm Password" = "Confirmar Senha";
+
+"Ooops…something wrong, try one more time" = "Ooops ... algo errado, tente mais uma vez";
+"Are you sure you want to place this order?" = "Tem certeza de que deseja colocar esta ordem?";
+"Password and confirm  password should be same" = "A senha e confirmação de senha devem ser a mesma";
+"Password changed successfully" = "Senha alterada com sucesso";
+"Password must be no less than 7 characters including uppercase and lowercase letters" = "A senha deve ter no mínimo 7 caracteres e conter letras maiúsculas e minúsculas";
+
+//MARK: - Google Auth
+
+"Paring code copied" = "Código de pareamento copiado";
+"Enable 2FA" = "Ativar 2FA";
+"Disable 2FA" = "Desativar 2FA";
+"Please enter your 6-digit authenticator code" = "Por favor, digite seu código de autenticador de 6 dígitos";
+"Two-factor authentication (2fa) greatly increases security by requiring both your password and another form of authentication. Cryptosa implements 2fa utilizing Google Authenticator. To enable this feature simply download Google Authenticator on your mobile device and scan the QRCode." = "A autenticação de dois fatores (2FA) aumenta muito a segurança exigindo sua senha e uma outra forma de autenticação. A Criptohub implementa o 2fa utilizando o Google Authenticator. Para ativar esse recurso, basta baixar o Google Authenticator em seu dispositivo móvel e digitalizar o QRCode.";
+"COPY" = "COPIAR";
+"Input your 6-digit authenticator code" = "Insira seu código de autenticador de 6 dígitos";
+"Paring code copied" = "Código de pareamento copiado";
+"Address copied" = "Endereço copiado";
+
+//MARK: - Wallet History
+
+"Deposit" = "Depósito";
+"History" = "Histórico";
+"Withdrawal History" = "Histórico de Retirada";
+"Hide assets with small amounts" = "Ocultar ativos com pequenas quantias" ;
+"Show assets with small amounts" = "Mostrar ativos com pequenas quantias" ;
+"Please enter wallet address" = "Por favor, indique o endereço da carteira";
+"Min withdrawal amount" = "Quantia mínima de retirada";
+"Max withdrawal amount" = "Valor máximo de retirada";
+"Please enter valid address" = "Por favor insira um endereço válido";
+"Are you sure you want to place this withdrawal request?" = "Tem certeza de que deseja colocar este pedido de retirada?";
+
+"Please complete the  withdrawal process by clicking on the link in your email inbox" = "Por favor, complete o processo de retirada clicando no link enviado para seu email";
+
+"Please enter amount" = "Favor informar o valor";
+
+
+//MARK: - Wallet Screen
+
+"Name" = "Nome";
+"Holding" = "Holding";
+"Withdrawal" = "Saque";
+"Open Orders" = "Ordens em Aberto";
+"ESTIMATED VALUE" = "VALOR ESTIMADO";
+"IN ORDERS" = "EM ORDENS";
+"- The transfer of digital assets between the accounts of this platform is not supported, please ensure that your transfer address is not our account address.\n- We will process your withdrawal in 30 minutes, it depends on the blockchain when the assets would finally transferred to your wallet.\n- To enhance the security of your assets, if your withdrawal amount is larger than 50.0 BTC, we have to manually proccess your request, please double check your withdraw address." = "- A transferência de ativos digitais entre as contas desta plataforma não é suportada, certifique-se de que o seu endereço de transferência não é o endereço da nossa conta. \n - Processaremos seu saque em 30 minutos, depende do blockchain quando os ativos finalmente transferidos para sua carteira. \n - Para aumentar a segurança de seus ativos, se seu valor de retirada for maior que 50,0 BTC, nós precisaremos processar manualmente sua solicitação, verifique seu endereço de retirada.";
+
+
+
+//MARK: - Withdraw Screen
+
+"Fee" = "Taxa";
+"Select Wallet Address" = "Selecione o endereço da carteira";
+"ALL" = "TODOS";
+"Google Autheticator Code"= "Código do Google Autheticator";
+"Address Tag"= "Etiqueta de endereço";
+"Address"= "Endereço";
+"Please complete the  withdrawal process by clicking on the link in your email inbox"= "Por favor, complete o processo de retirada clicando no link enviado para o seu e-mail";
+"Account Number must be exactly 26 characters" = "HesapNumarası tam olarak 26 karakter olmalı";
+"Account number copied" = "Número da conta copiado";
+//MARK: - Deposit Screen
+
+"- Do not use this address to deposit any other asset than the selected one. Any loss due to maloperation can not be retrieved.\n - This is your one and only address for depositing purpose. You are allowed to proceed multiple deposits simultaneously.\n - Depositing wil be done automatically. Selecting asset to transfer requires confirmation from the whole Bitcoin network. The asset you selected will be deposited into your account when reaches 6 confirmations." = "- Não use este endereço para depositar qualquer outro ativo que não o selecionado. Qualquer perda devido a mau funcionamento não pode ser recuperada. \n - Este é seu único endereço para fins de depósito. Você pode fazer vários depósitos simultaneamente. \n - O depósito será feito automaticamente. Selecionar um ativo para transferir requer a confirmação de toda a rede Bitcoin. O ativo que você selecionou será depositado em sua conta quando atingir 6 confirmações.";
+
+
+
+"Deposit History" = "Yatırım Geçmişi";
+
+"Address" = "Endereço";
+"Bank Details"= "Detalhes Bancários";
+"Bank Name"= "Nome do Banco";
+"Beneficiary Name"= "Nome do Beneficiário";
+"Bank Routing Code"= "Código de Encaminhamento Bancário";
+"Account Number"= "Número da Conta";
+"Swift Code"= "Código Swift";
+"Location"= "Localização";
+"Submit Deposit" = "Enviar depósito";
+"Request Amount"= "Montante da Solicitação";
+"Comments"= "Comentários";
+"ALREADY HAVE"= "JÁ TEM";
+"Are you sure you want to cancel Deposit request?" = "Tem certeza de que deseja cancelar a solicitação de depósito?";
+"Request amount cannot be empty"= "O valor da solicitação não pode estar vazio";
+"Transaction ID cannot be empty"= "ID da transação não pode estar vazio";
+"Select a Payment Method"= "Selecione um método de pagamento";
+"Search Bank Name"="Arama Bankası Adı";
+"Bank Transfer" = "Transferência Bancária";
+"Online Payment"= "Pagamento Online";
+"You will be redirected to an external website to complete your deposit." ="Você será redirecionado para um site externo para concluir seu depósito.";
+"Trasnsaction Fee"= "Taxa de transação";
+"Charge Amount"= "Quantidade cobrança";
+"Destination Tag:"= "Tag de Destino:";
+
+//MARK: - Error Popup
+"The internet appears to be offline" = "A internet parece estar offline";
+"Search Coin" = "Pesquisar moeda";
+"Your choice" = "Sua escolha";
+"Favorites" = "Favoritos";
+"server error" = "erro de servidor";
+
+
+//MARK: - Settings
+"Settings" = "Configurações";
+"URL Changed successfully" = "URL Alterado com Sucesso";
+"Invalid URL" = "URL Inválida";
+"SAVE" = "SALVAR";
+"REFRESH THEME" = "ATUALIZAR TEMA";
+"Please Confirm" ="Favor Confirmar";
+"Some thing went wrong" = "Alguma coisa deu errado";
+
+// Qr code
+"Payment by QRCode" = "Pagamento por QRCode";
+
+
+
+//MARK: -  Portuguese Strings need Englisg version for that
+"Scan the QR Code" = "Escaneie o o QR Code";
+"Transaction data" = "Dados da transação";
+"Transaction Code" = "Cód. da transação";
+"Total amount" = "Quantidade Total";
+"Select currency" = "Selecione a moeda";
+"Selected currency" = "Moeda selecionada";
+"Currency value" = "Valor moeda";
+"Transaction successful." = "Transação efetuada com sucesso.";
+"OK" = "OK";
+"Please enter Google Authenticator Code" = "Insira o código do Google Authenticator";
+
+"We have processed your payment request. Please complete the final step in payment by clicking on the link you received in email requesting withdrawal of funds!" = "Processamos sua solicitação de pagamento. Por favor, preencha o passo final no pagamento, clicando no link que você recebeu no email solicitando a retirada de fundos!";
+"Balance" = "Equilibrar";
+"fetching" = "buscando";
+
+// Change Language
+"Language" = "Língua";
+"Are you sure you want to change language to " = "Tem certeza de que deseja alterar o idioma para ";
+"English" = "Inglês";
+"Portuguese" = "Português";
+"Pairs" = "Pares";
+
+"Do you want to enable biometrics to unlock app ?" = "Deseja ativar a biometria para desbloquear o aplicativo?";
+"App unlock failed, because " = "O desbloqueio do aplicativo falhou porque";
+"There was a problem verifying your identity." = "Ocorreu um problema ao verificar sua identidade.";
+"you pressed cancel." = "você pressionou cancelar.";
+"you pressed password." = "você pressionou a senha.";
+"Face ID/Touch ID is not available." = "O ID do rosto / ID do toque não está disponível.";
+"Face ID/Touch ID is not set up." = "O ID do rosto / ID do toque não está configurado.";
+"Face ID/Touch ID is locked." = "O ID do rosto / ID do toque está bloqueado.";
+"Face ID/Touch ID may not be configured" = "O ID do rosto / ID do toque pode não estar configurado";
+"Touch ID not available" = "Touch ID não disponível";
+"OK" = "ESTÁ BEM";
+"Biometric Lock" = "Bloqueio biométrico";
+"When enabled, you'll need to use" = "Quando ativado, você precisará usar";
+"to unlock CriptoHub" = "para desbloquear o CriptoHub";
+"Face ID"="ID do rosto";
+"Enable Biometric Lock" = "Ativar bloqueio biométrico";
+"Register / enable biometric in settings" = "Registrar / ativar configurações biométricas";

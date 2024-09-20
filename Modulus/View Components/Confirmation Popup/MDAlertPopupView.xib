@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mark Simonson - Proxima Nova Alt Regular.otf">
+            <string>ProximaNovaA-Regular</string>
+        </array>
+        <array key="Mark Simonson - Proxima Nova Alt Semibold.otf">
+            <string>ProximaNovaA-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDAlertPopupView" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dKs-G9-zDf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kw-hK-y2D">
+                            <rect key="frame" x="56.5" y="242.5" width="262.5" height="182"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Confirm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qf-YO-5oG">
+                                    <rect key="frame" x="62.5" y="39" width="137.5" height="31"/>
+                                    <fontDescription key="fontDescription" name="ProximaNovaA-Semibold" family="Proxima Nova Alt" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure you want to place this order" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hle-tD-RBm">
+                                    <rect key="frame" x="13" y="73.5" width="236" height="30"/>
+                                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2G-f9-GqU">
+                                    <rect key="frame" x="137" y="124.5" width="115.5" height="37.5"/>
+                                    <color key="backgroundColor" name="appRedColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="U2G-f9-GqU" secondAttribute="height" multiplier="111:36" id="Ylj-Ar-FhL"/>
+                                    </constraints>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="noButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="GGA-Bv-SO2"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRt-kj-7nW">
+                                    <rect key="frame" x="10" y="124.5" width="115.5" height="37.5"/>
+                                    <color key="backgroundColor" name="appRedColor"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="yesButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="vEa-zC-M7g"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="qRt-kj-7nW" firstAttribute="leading" secondItem="8kw-hK-y2D" secondAttribute="leading" constant="10" id="2zf-bl-air"/>
+                                <constraint firstItem="Hle-tD-RBm" firstAttribute="centerX" secondItem="1Qf-YO-5oG" secondAttribute="centerX" id="Gi8-5P-c3b"/>
+                                <constraint firstAttribute="bottom" secondItem="qRt-kj-7nW" secondAttribute="bottom" constant="20" id="L9R-Jz-Lwp"/>
+                                <constraint firstItem="qRt-kj-7nW" firstAttribute="width" secondItem="U2G-f9-GqU" secondAttribute="width" id="PGi-40-28t"/>
+                                <constraint firstItem="1Qf-YO-5oG" firstAttribute="centerX" secondItem="8kw-hK-y2D" secondAttribute="centerX" id="SJi-9P-JWb"/>
+                                <constraint firstAttribute="trailing" secondItem="U2G-f9-GqU" secondAttribute="trailing" constant="10" id="UYv-Gx-CWs"/>
+                                <constraint firstItem="U2G-f9-GqU" firstAttribute="width" secondItem="8kw-hK-y2D" secondAttribute="width" multiplier="0.44" id="Zel-LH-ZIV"/>
+                                <constraint firstItem="qRt-kj-7nW" firstAttribute="top" secondItem="U2G-f9-GqU" secondAttribute="top" id="dX3-fe-Bjc"/>
+                                <constraint firstItem="Hle-tD-RBm" firstAttribute="top" secondItem="1Qf-YO-5oG" secondAttribute="bottom" multiplier="1.05" id="f1o-CT-J21"/>
+                                <constraint firstItem="1Qf-YO-5oG" firstAttribute="top" secondItem="8kw-hK-y2D" secondAttribute="top" constant="39" id="fuX-qU-ot0"/>
+                                <constraint firstItem="Hle-tD-RBm" firstAttribute="width" secondItem="8kw-hK-y2D" secondAttribute="width" multiplier="0.9" id="mhv-dy-ebA"/>
+                                <constraint firstItem="U2G-f9-GqU" firstAttribute="top" secondItem="Hle-tD-RBm" secondAttribute="bottom" multiplier="1.2" id="nBN-Un-IFT"/>
+                                <constraint firstItem="1Qf-YO-5oG" firstAttribute="centerY" secondItem="8kw-hK-y2D" secondAttribute="centerY" multiplier="0.6" id="q5h-o0-IsR"/>
+                                <constraint firstItem="qRt-kj-7nW" firstAttribute="height" secondItem="U2G-f9-GqU" secondAttribute="height" id="rb9-os-u9x"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="8kw-hK-y2D" firstAttribute="width" secondItem="dKs-G9-zDf" secondAttribute="width" multiplier="0.7" id="UMo-Sn-yJG"/>
+                        <constraint firstItem="8kw-hK-y2D" firstAttribute="centerX" secondItem="dKs-G9-zDf" secondAttribute="centerX" id="upB-Ue-B78"/>
+                        <constraint firstItem="8kw-hK-y2D" firstAttribute="centerY" secondItem="dKs-G9-zDf" secondAttribute="centerY" id="v9n-w1-Kso"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="lkV-2h-Q3l" appends="YES" id="ahJ-Mt-uRL"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dKs-G9-zDf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1gE-tk-jhE"/>
+                <constraint firstItem="dKs-G9-zDf" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="2sb-fg-8BW"/>
+                <constraint firstItem="dKs-G9-zDf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5My-Ow-NbP"/>
+                <constraint firstItem="dKs-G9-zDf" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="Z5g-DI-jNk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backgroundView" destination="dKs-G9-zDf" id="5RZ-qw-xFg"/>
+                <outlet property="noButton" destination="U2G-f9-GqU" id="pY6-9D-Gxd"/>
+                <outlet property="popupMessage" destination="Hle-tD-RBm" id="I9R-F8-AAY"/>
+                <outlet property="popupTitle" destination="1Qf-YO-5oG" id="bs3-FD-CTk"/>
+                <outlet property="popupView" destination="8kw-hK-y2D" id="H0h-p8-Frs"/>
+                <outlet property="yesButton" destination="qRt-kj-7nW" id="NOd-Rx-6Fa"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="lkV-2h-Q3l">
+            <connections>
+                <action selector="tappedOnBackground:" destination="iN0-l3-epB" id="z4R-kT-oxl"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <namedColor name="appRedColor">
+            <color red="0.83529411764705885" green="0.14901960784313725" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

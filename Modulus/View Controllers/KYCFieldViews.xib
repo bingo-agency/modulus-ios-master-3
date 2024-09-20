@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mark Simonson - Proxima Nova Alt Regular.otf">
+            <string>ProximaNovaA-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDKYCTextField" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hky-Ai-EFJ">
+                    <rect key="frame" x="0.0" y="5" width="441" height="16"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ev1-OM-8wW">
+                    <rect key="frame" x="0.0" y="26" width="441" height="44"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Wallet Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="orw-aq-YZS">
+                            <rect key="frame" x="11" y="2" width="419" height="40"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                    <color key="value" white="1" alpha="0.20999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColorCustom">
+                                    <color key="value" systemColor="lightTextColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <view alpha="0.55000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bFW-2W-7y7">
+                            <rect key="frame" x="11" y="38.5" width="419" height="0.5"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="Glj-PX-hSt"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1647058824" green="0.1529411765" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="orw-aq-YZS" firstAttribute="width" secondItem="Ev1-OM-8wW" secondAttribute="width" multiplier="0.95" id="5uF-d5-f3F"/>
+                        <constraint firstItem="orw-aq-YZS" firstAttribute="centerY" secondItem="Ev1-OM-8wW" secondAttribute="centerY" id="6dZ-fQ-kSC"/>
+                        <constraint firstItem="orw-aq-YZS" firstAttribute="height" secondItem="Ev1-OM-8wW" secondAttribute="height" multiplier="0.9" id="D7s-Gx-7c6"/>
+                        <constraint firstItem="bFW-2W-7y7" firstAttribute="bottom" secondItem="orw-aq-YZS" secondAttribute="bottom" constant="-3" id="Nob-UF-NYJ"/>
+                        <constraint firstItem="bFW-2W-7y7" firstAttribute="width" secondItem="orw-aq-YZS" secondAttribute="width" id="UNw-6d-NqW"/>
+                        <constraint firstItem="bFW-2W-7y7" firstAttribute="centerX" secondItem="orw-aq-YZS" secondAttribute="centerX" id="ZB8-vC-Qpi"/>
+                        <constraint firstItem="orw-aq-YZS" firstAttribute="centerX" secondItem="Ev1-OM-8wW" secondAttribute="centerX" id="zUy-jh-KTV"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ev1-OM-8wW" secondAttribute="bottom" id="4pf-ZP-p4k"/>
+                <constraint firstItem="Hky-Ai-EFJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5Fy-RR-nJa"/>
+                <constraint firstItem="Ev1-OM-8wW" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="FZ6-p4-36G"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Hky-Ai-EFJ" secondAttribute="trailing" id="GwC-hW-op5"/>
+                <constraint firstItem="Hky-Ai-EFJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Omr-wr-vrY"/>
+                <constraint firstItem="Ev1-OM-8wW" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="dc1-6V-Jdl"/>
+                <constraint firstItem="Ev1-OM-8wW" firstAttribute="top" secondItem="Hky-Ai-EFJ" secondAttribute="bottom" constant="5" id="m5i-K5-Y5S"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="Ev1-OM-8wW" id="10g-hU-n0h"/>
+                <outlet property="textField" destination="orw-aq-YZS" id="9XL-Ln-LQW"/>
+                <outlet property="titleLabel" destination="Hky-Ai-EFJ" id="xRi-2G-hJ4"/>
+                <outlet property="underLine" destination="bFW-2W-7y7" id="vUO-Vt-pw4"/>
+            </connections>
+            <point key="canvasLocation" x="151.44927536231884" y="-161.04910714285714"/>
+        </view>
+        <view contentMode="scaleToFill" id="zq2-30-gmG" customClass="MDKYCDropDownField" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWM-Mc-wYc">
+                    <rect key="frame" x="0.0" y="0.0" width="134.5" height="16"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVP-8M-wwM">
+                    <rect key="frame" x="0.0" y="26" width="148" height="81"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="17"/>
+                    <state key="normal" title="Select the Type       ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidthV">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColorV">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="dropdownButtonAction:" destination="zq2-30-gmG" eventType="touchUpInside" id="Wba-hi-oGo"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="bDA-Pj-RYP">
+                    <rect key="frame" x="130" y="64" width="8" height="5"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bKf-z3-YeC"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bDA-Pj-RYP" firstAttribute="trailing" secondItem="LVP-8M-wwM" secondAttribute="trailing" constant="-10" id="1y7-Bm-ftg"/>
+                <constraint firstItem="LVP-8M-wwM" firstAttribute="leading" secondItem="VWM-Mc-wYc" secondAttribute="leading" id="AYE-zG-wZp"/>
+                <constraint firstItem="bKf-z3-YeC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LVP-8M-wwM" secondAttribute="trailing" id="HX4-vu-uH1"/>
+                <constraint firstAttribute="bottom" secondItem="LVP-8M-wwM" secondAttribute="bottom" constant="10" id="eKu-7r-QLg"/>
+                <constraint firstItem="LVP-8M-wwM" firstAttribute="top" secondItem="VWM-Mc-wYc" secondAttribute="bottom" constant="10" id="jrx-0S-HMW"/>
+                <constraint firstItem="VWM-Mc-wYc" firstAttribute="leading" secondItem="zq2-30-gmG" secondAttribute="leading" id="mKR-Sg-xGg"/>
+                <constraint firstItem="VWM-Mc-wYc" firstAttribute="top" secondItem="zq2-30-gmG" secondAttribute="top" id="tV5-TO-LbV"/>
+                <constraint firstItem="bDA-Pj-RYP" firstAttribute="centerY" secondItem="LVP-8M-wwM" secondAttribute="centerY" id="udF-0k-XpP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dropDownButton" destination="LVP-8M-wwM" id="xPi-hP-PpH"/>
+                <outlet property="titleLabel" destination="VWM-Mc-wYc" id="iTH-aS-JxO"/>
+            </connections>
+            <point key="canvasLocation" x="151" y="-77"/>
+        </view>
+        <view contentMode="scaleToFill" id="fS7-D0-ONd" customClass="MDKYCPanelField" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of verification" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abc-cm-jaQ">
+                    <rect key="frame" x="0.0" y="5" width="445" height="83"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="K5o-wd-8pU"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Abc-cm-jaQ" firstAttribute="centerY" secondItem="K5o-wd-8pU" secondAttribute="centerY" id="7sg-4J-6Yh"/>
+                <constraint firstItem="Abc-cm-jaQ" firstAttribute="width" secondItem="fS7-D0-ONd" secondAttribute="width" id="8lF-d3-Ou1"/>
+                <constraint firstItem="Abc-cm-jaQ" firstAttribute="height" secondItem="fS7-D0-ONd" secondAttribute="height" id="F6P-oo-hEH"/>
+                <constraint firstItem="Abc-cm-jaQ" firstAttribute="centerX" secondItem="K5o-wd-8pU" secondAttribute="centerX" id="ceF-by-mT3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabel" destination="Abc-cm-jaQ" id="uXy-dP-W8N"/>
+            </connections>
+            <point key="canvasLocation" x="151" y="11"/>
+        </view>
+        <view contentMode="scaleToFill" id="bbr-EL-fxn" customClass="MDKYCImagePicker" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="229"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Image " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQT-gt-59V">
+                    <rect key="frame" x="0.0" y="0.0" width="49" height="19"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hle-jD-Yde">
+                    <rect key="frame" x="337.5" y="24" width="100.5" height="40"/>
+                    <color key="backgroundColor" name="appRedColor"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="17"/>
+                    <state key="normal" title="Choose">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="chooseButtonAction:" destination="bbr-EL-fxn" eventType="touchUpInside" id="ZsT-ZM-041"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RH9-Il-ZEp">
+                    <rect key="frame" x="0.0" y="24" width="332.5" height="40"/>
+                    <subviews>
+                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Image name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E6N-tM-tRf">
+                            <rect key="frame" x="8.5" y="2" width="315.5" height="36"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                    <color key="value" white="1" alpha="0.20999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColorCustom">
+                                    <color key="value" systemColor="lightTextColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <view alpha="0.55000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oil-SS-V86">
+                            <rect key="frame" x="8.5" y="34.5" width="315.5" height="0.5"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="WBu-OM-RpM"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1647058824" green="0.1529411765" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="E6N-tM-tRf" firstAttribute="width" secondItem="RH9-Il-ZEp" secondAttribute="width" multiplier="0.95" id="57f-mw-xJe"/>
+                        <constraint firstItem="E6N-tM-tRf" firstAttribute="height" secondItem="RH9-Il-ZEp" secondAttribute="height" multiplier="0.9" id="M4X-Q6-SFa"/>
+                        <constraint firstItem="E6N-tM-tRf" firstAttribute="centerY" secondItem="RH9-Il-ZEp" secondAttribute="centerY" id="OKJ-du-KDq"/>
+                        <constraint firstItem="oil-SS-V86" firstAttribute="centerX" secondItem="E6N-tM-tRf" secondAttribute="centerX" id="Z89-0h-M0o"/>
+                        <constraint firstItem="E6N-tM-tRf" firstAttribute="leading" secondItem="RH9-Il-ZEp" secondAttribute="trailing" multiplier="0.025" id="dkd-PE-NYt"/>
+                        <constraint firstItem="oil-SS-V86" firstAttribute="width" secondItem="E6N-tM-tRf" secondAttribute="width" id="fHT-II-cUW"/>
+                        <constraint firstItem="oil-SS-V86" firstAttribute="bottom" secondItem="E6N-tM-tRf" secondAttribute="bottom" constant="-3" id="ipo-wI-JxZ"/>
+                        <constraint firstAttribute="height" constant="40" id="z3r-Vh-4pU"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Preview" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySa-wc-4Yb">
+                    <rect key="frame" x="30" y="84" width="383" height="135"/>
+                    <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova A" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidthV">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ItW-aJ-fF7">
+                    <rect key="frame" x="30" y="84" width="383" height="135"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eH-6t-5cS">
+                    <rect key="frame" x="408" y="84" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Va7-bq-UqU"/>
+                        <constraint firstAttribute="width" secondItem="9eH-6t-5cS" secondAttribute="height" multiplier="1:1" id="y1P-mL-Eoa"/>
+                    </constraints>
+                    <color key="tintColor" name="appRedColor"/>
+                    <state key="normal" image="cross"/>
+                    <connections>
+                        <action selector="crossButtonAction:" destination="bbr-EL-fxn" eventType="touchUpInside" id="tJm-Ty-4m9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="2Vh-s4-0fu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hle-jD-Yde" firstAttribute="leading" secondItem="RH9-Il-ZEp" secondAttribute="trailing" constant="5" id="1BP-f9-KDn"/>
+                <constraint firstItem="hle-jD-Yde" firstAttribute="trailing" secondItem="2Vh-s4-0fu" secondAttribute="trailing" constant="-5" id="6Hv-Jb-xqM"/>
+                <constraint firstItem="9eH-6t-5cS" firstAttribute="top" secondItem="ItW-aJ-fF7" secondAttribute="top" id="LfW-UU-0dw"/>
+                <constraint firstItem="ySa-wc-4Yb" firstAttribute="width" secondItem="ItW-aJ-fF7" secondAttribute="width" id="LyM-OU-Ozs"/>
+                <constraint firstItem="ItW-aJ-fF7" firstAttribute="top" secondItem="RH9-Il-ZEp" secondAttribute="bottom" constant="20" id="NUO-NV-HIY"/>
+                <constraint firstItem="ItW-aJ-fF7" firstAttribute="leading" secondItem="2Vh-s4-0fu" secondAttribute="leading" constant="30" id="P1X-mG-33c"/>
+                <constraint firstItem="ySa-wc-4Yb" firstAttribute="top" secondItem="ItW-aJ-fF7" secondAttribute="top" id="aDW-X4-qe5"/>
+                <constraint firstItem="hle-jD-Yde" firstAttribute="height" secondItem="RH9-Il-ZEp" secondAttribute="height" id="byF-eu-eF7"/>
+                <constraint firstItem="KQT-gt-59V" firstAttribute="top" secondItem="bbr-EL-fxn" secondAttribute="top" id="cEa-RI-jd3"/>
+                <constraint firstItem="2Vh-s4-0fu" firstAttribute="trailing" secondItem="ItW-aJ-fF7" secondAttribute="trailing" constant="30" id="cYz-YR-bEm"/>
+                <constraint firstAttribute="bottom" secondItem="ItW-aJ-fF7" secondAttribute="bottom" constant="10" id="fw4-P9-q2j"/>
+                <constraint firstItem="hle-jD-Yde" firstAttribute="centerY" secondItem="RH9-Il-ZEp" secondAttribute="centerY" id="g1D-7w-FIx"/>
+                <constraint firstItem="ySa-wc-4Yb" firstAttribute="bottom" secondItem="ItW-aJ-fF7" secondAttribute="bottom" id="gbF-fu-7y8"/>
+                <constraint firstItem="KQT-gt-59V" firstAttribute="leading" secondItem="bbr-EL-fxn" secondAttribute="leading" id="jjd-Gd-LNL"/>
+                <constraint firstItem="9eH-6t-5cS" firstAttribute="trailing" secondItem="hle-jD-Yde" secondAttribute="trailing" id="kiG-U3-X2f"/>
+                <constraint firstItem="RH9-Il-ZEp" firstAttribute="width" secondItem="bbr-EL-fxn" secondAttribute="width" multiplier="0.75" id="men-ZJ-Mqq"/>
+                <constraint firstItem="RH9-Il-ZEp" firstAttribute="top" secondItem="KQT-gt-59V" secondAttribute="bottom" constant="5" id="uvf-qx-D81"/>
+                <constraint firstItem="RH9-Il-ZEp" firstAttribute="leading" secondItem="bbr-EL-fxn" secondAttribute="leading" id="zG1-ef-nTD"/>
+                <constraint firstItem="ySa-wc-4Yb" firstAttribute="centerX" secondItem="ItW-aJ-fF7" secondAttribute="centerX" id="zs3-0J-VN2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chooseButton" destination="hle-jD-Yde" id="I96-3V-Y4N"/>
+                <outlet property="crossButton" destination="9eH-6t-5cS" id="OL5-Io-d4X"/>
+                <outlet property="imagNameTextField" destination="E6N-tM-tRf" id="hjM-6v-saR"/>
+                <outlet property="imagePreviewLabel" destination="ySa-wc-4Yb" id="At9-DP-YKP"/>
+                <outlet property="imageView" destination="ItW-aJ-fF7" id="jl1-8R-6tC"/>
+                <outlet property="textFieldBgView" destination="RH9-Il-ZEp" id="USH-ql-hgY"/>
+                <outlet property="titleLabel" destination="KQT-gt-59V" id="SeN-Zi-qsH"/>
+                <outlet property="underLine" destination="oil-SS-V86" id="WMY-RW-n49"/>
+            </connections>
+            <point key="canvasLocation" x="150" y="134.93303571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross" width="14" height="15"/>
+        <image name="down-arrow" width="8" height="5"/>
+        <namedColor name="appRedColor">
+            <color red="0.83529411764705885" green="0.14901960784313725" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

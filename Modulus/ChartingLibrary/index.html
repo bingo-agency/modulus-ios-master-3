@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>TradingView Charting Library demo</title>
+
+		<!-- Fix for iOS Safari zooming bug -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
+<!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/store.js/1.3.20/store.min.js"></script>-->
+            <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.2.min.js"></script>
+        
+        <script type="text/javascript" src="charting_library/charting_library.min.js"></script>
+        <script type="text/javascript" src="datafeeds/udf/dist/polyfills.js"></script>
+        <script type="text/javascript" src="datafeeds/udf/dist/bundle.js"></script>
+        <script type="text/javascript" src="moment.js"></script>
+<!--        <script type="text/javascript" src="TVChartContainer/streamProvider.js"></script>-->
+<!--        <script type="text/javascript" src="TVChartContainer/historyProvider.js"></script>-->
+<!--        <script type="text/javascript" src="TVChartContainer/datafeed.js"></script>-->
+
+
+        <script type="text/javascript">
+            
+            var url = new URL(window.location.href);
+            var baseCoin = url.searchParams.get("base");
+            var toCoin = url.searchParams.get("to");
+            var domain = url.searchParams.get("domain");
+            var interval = url.searchParams.get("interval");
+            var timestamp=url.searchParams.get("timestamp");
+            var preset=url.searchParams.get("preset");
+
+            if(toCoin!=undefined&&baseCoin!=undefined&&domain!=undefined&&domain!=''&&timestamp!=null){
+                addTradingViewWidget();
+            }else{
+                //alert('Please provide to and base currency');
+                $('.alert-danger').show();
+            }
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+                                  
+        function addTradingViewWidget(){
+                                  console.log('Trading view widget addition');
+                                  interval=(interval!=undefined)?interval:'15';
+                                  $('#alertBox').hide();
+                                  console.log($('#alertBox'));
+                                  TradingView.onready(function()
+                                                      {
+                                                      var widget = window.tvWidget = new TradingView.widget({
+                                                                                                            // debug: true, // uncomment this line to see Library errors and warnings in the console
+                                                                                                            fullscreen: true,
+                                                                                                            symbol: baseCoin+'/'+toCoin,
+                                                                                                            interval: interval,
+                                                                                                            container_id: "tv_chart_container",
+                                                                                                            theme:"Dark",
+                                                                                                            //    BEWARE: no trailing slash is expected in feed URL
+                                                                                                            datafeed: datafeed,
+                                                                                                            library_path: "charting_library/",
+                                                                                                            locale: getParameterByName('lang') || "en",
+                                                                                                            disabled_features: ["use_localstorage_for_settings"],
+                                                                                                            enabled_features: ["study_templates"],
+                                                                                                            charts_storage_url: 'http://saveload.tradingview.com',
+                                                                                                            charts_storage_api_version: "1.1",
+                                                                                                            client_id: 'tradingview.com',
+                                                                                                            user_id: 'public_user_id',
+                                                                                                            preset: preset,
+                                                                                                            overrides: {
+                                                                                                            "paneProperties.background": "#222222",
+                                                                                                            "paneProperties.vertGridProperties.color": "#454545",
+                                                                                                            "paneProperties.horzGridProperties.color": "#454545",
+                                                                                                            "symbolWatermarkProperties.transparency": 90,
+                                                                                                            "scalesProperties.textColor" : "#AAA"
+                                                                                                            }
+                                                                                                            });
+                                                      });
+        }
+                                  
+                                  
+                                  
+                                  
+      </script>
+
+	</head>
+
+	<body style="margin:0px;">
+		<div id="tv_chart_container"></div>
+	</body>
+    <script type="text/javascript" src="TVChartContainer/streamProvider.js"></script>
+    <script type="text/javascript" src="TVChartContainer/historyProvider.js"></script>
+    <script type="text/javascript" src="TVChartContainer/datafeed.js"></script>
+</html>

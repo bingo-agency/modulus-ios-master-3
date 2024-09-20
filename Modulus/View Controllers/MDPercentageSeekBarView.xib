@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDPercentageSeekBarView" customModule="Modulus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8d-BX-4UO">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adR-Tw-ETc">
+                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="104"/>
+                            <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" id="xL5-Qg-3c4"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="adR-Tw-ETc" secondAttribute="bottom" id="7pL-ni-bOK"/>
+                        <constraint firstItem="adR-Tw-ETc" firstAttribute="leading" secondItem="E8d-BX-4UO" secondAttribute="leading" id="Mg7-2L-w4R"/>
+                        <constraint firstItem="adR-Tw-ETc" firstAttribute="top" secondItem="E8d-BX-4UO" secondAttribute="top" id="bS3-wY-LbC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="E8d-BX-4UO" secondAttribute="trailing" id="482-ef-zGF"/>
+                <constraint firstItem="E8d-BX-4UO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="78f-QB-MEQ"/>
+                <constraint firstAttribute="bottom" secondItem="E8d-BX-4UO" secondAttribute="bottom" id="XLI-Lq-GWP"/>
+                <constraint firstItem="E8d-BX-4UO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Yo6-Fi-Gk8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="completedBarView" destination="adR-Tw-ETc" id="Jnh-qu-0JC"/>
+                <outlet property="completedPathConstraint" destination="xL5-Qg-3c4" id="6QF-w2-r2Q"/>
+                <outlet property="percentageBar" destination="E8d-BX-4UO" id="MA2-0m-54T"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
